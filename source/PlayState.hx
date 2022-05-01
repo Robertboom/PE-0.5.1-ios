@@ -427,12 +427,15 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-case 'TOO-SLOW': //TOO-SLOW
+case 'TOO-SLOW': //week 7
 				var bg:BGSprite = new BGSprite('background ladders', -200, -290, 0.75, 0.75);
-				add(bg);
-				var stageFront:BGSprite = new BGSprite('icicles background', -121, -75, 0.85, 0.85);
-				var stageFront:BGSprite = new BGSprite('main stage', -490, 6, 1, 1);
-				var stageFront:BGSprite = new BGSprite('main stage spoopy', -490, 6, 1, 1);
+				add(background ladders);
+				var stageFront:BGSprite = new BGSprite('icicles background', -121, -75, 0.85, 0.85)
+				add(icicles background);
+				var stageFront:BGSprite = new BGSprite('main stage', -490, 6, 1, 1)
+				add(main stage);
+				var stageFront:BGSprite = new BGSprite('main stage spoopy', -490, 6, 1, 1)
+				add(main stage spoopy);
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
