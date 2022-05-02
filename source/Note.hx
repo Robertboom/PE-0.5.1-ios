@@ -63,11 +63,14 @@ class Note extends FlxSprite
 
 	public var hitHealth:Float = 0.023;
 	public var missHealth:Float = 0.0475;
-
+	public var opponentHitHealth:Float = 0;
+	public var animSuffix:String = '';
 	public var texture(default, set):String = null;
 
 	public var noAnimation:Bool = false;
 	public var hitCausesMiss:Bool = false;
+	public var hitbox:Float = Conductor.safeZoneOffset; // to make ice and mines less cancer -neb
+
 	public var distance:Float = 2000;//plan on doing scroll directions soon -bb
 
 	private function set_texture(value:String):String {
@@ -87,6 +90,7 @@ class Note extends FlxSprite
 		if(noteData > -1 && noteType != value) {
 			switch(value) {
 				case 'Hurt Note':
+					hitbox*=.75;
 					ignoreNote = mustPress;
 					reloadNote('HURT');
 					noteSplashTexture = 'HURTnoteSplashes';
@@ -99,6 +103,39 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'Ice Note':
+					hitbox*=.5;
+					ignoreNote = mustPress;
+					reloadNote('ICE');
+					noteSplashTexture = 'ICEnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+
+					switch(noteData){
+						case 0:
+							offset.x += 8;
+							offset.y += 2;
+						case 1:
+							offset.x += 8.5;
+							offset.y -= 2;
+						case 2:
+							offset.x += 5;
+						case 3:
+							offset.x += 10;
+					}
+				case 'Fight Note':
+					reloadNote('','','Gimmick');
+					noteSplashTexture = 'pixelUI/noteSplashesWeek6';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					if(mustPress)
+						hitHealth*=2;
+					else
+						opponentHitHealth = -hitHealth*2;
+
+					animSuffix = '-F';
 				case 'No Animation':
 					noAnimation = true;
 				case 'GF Sing':
@@ -225,7 +262,7 @@ class Note extends FlxSprite
 		if(prefix == null) prefix = '';
 		if(texture == null) texture = '';
 		if(suffix == null) suffix = '';
-		
+
 		var skin:String = texture;
 		if(texture.length < 1) {
 			skin = PlayState.SONG.arrowSkin;
@@ -266,9 +303,6 @@ class Note extends FlxSprite
 		}
 		if(isSustainNote) {
 			scale.y = lastScaleY;
-			if(ClientPrefs.keSustains) {
-				scale.y *= 0.75;
-			}
 		}
 		updateHitbox();
 
@@ -286,6 +320,7 @@ class Note extends FlxSprite
 		animation.addByPrefix('redScroll', 'red0');
 		animation.addByPrefix('blueScroll', 'blue0');
 		animation.addByPrefix('purpleScroll', 'purple0');
+		setGraphicSize(Std.int(width * 4.5));
 
 		if (isSustainNote)
 		{
@@ -320,6 +355,7 @@ class Note extends FlxSprite
 			animation.add('redScroll', [RED_NOTE + 4]);
 			animation.add('blueScroll', [BLUE_NOTE + 4]);
 			animation.add('purpleScroll', [PURP_NOTE + 4]);
+			setGraphicSize(Std.int(width * 4.5));
 		}
 	}
 
@@ -330,21 +366,24 @@ class Note extends FlxSprite
 		if (mustPress)
 		{
 			// ok river
-			if (strumTime > Conductor.songPosition - Conductor.safeZoneOffset
-				&& strumTime < Conductor.songPosition + (Conductor.safeZoneOffset * earlyHitMult))
+			if (strumTime > Conductor.songPosition - hitbox
+				&& strumTime < Conductor.songPosition + (hitbox * earlyHitMult))
 				canBeHit = true;
 			else
 				canBeHit = false;
 
-			if (strumTime < Conductor.songPosition - Conductor.safeZoneOffset && !wasGoodHit)
+			if (strumTime < Conductor.songPosition - hitbox && !wasGoodHit)
 				tooLate = true;
 		}
 		else
 		{
 			canBeHit = false;
 
-			if (strumTime <= Conductor.songPosition)
-				wasGoodHit = true;
+			if (strumTime < Conductor.songPosition + (hitbox * earlyHitMult))
+			{
+				if((isSustainNote && prevNote.wasGoodHit) || strumTime <= Conductor.songPosition)
+					wasGoodHit = true;
+			}
 		}
 
 		if (tooLate && !inEditor)
