@@ -430,8 +430,12 @@ class PlayState extends MusicBeatState
 				case 'TOO-SLOW': //Week 1
 				var bg:BGSprite = new BGSprite('background ladders', -200, -290, 0.75, 0.75);
 				add(bg);
+				var icicles = new BGSprite('icicles background', -121, -75, 0.85, 0.85);
+				add(icicles);
+				var stage = new BGSprite('main stage', -490, 6, 1, 1);
+				var stage = new BGSprite('main stage spoopy', -490, 6, 1, 1);
 
-				var bg:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('', -650, 600, 0.9, 0.9);
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
