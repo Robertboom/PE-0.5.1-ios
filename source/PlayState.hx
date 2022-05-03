@@ -68,16 +68,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
-		['Shit', 0.4], //From 20% to 39%
-		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
-		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
-		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['deacon', 0.2], //From 0% to 19%
+		['Weenie Hut Jr. Customer', 0.4], //From 20% to 39%
+		['D`oh!', 0.5], //From 40% to 49%
+		['Dude (Dude)', 0.6], //From 50% to 59%
+		['Merhaps', 0.69], //From 60% to 68%
+		['Well well well....', 0.7], //69%
+		['I am inside your home', 0.8], //From 70% to 79%
+		['Doin good I think', 0.9], //From 80% to 89%
+		['Bitch getter', 1], //From 90% to 99%
+		['Deeztastic!!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
@@ -427,15 +427,30 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-				case 'TOO-SLOW': //Week 1
-				var bg:BGSprite = new BGSprite('background ladders', -200, -290, 0.75, 0.75);
-				add(bg);
-				var icicles = new BGSprite('icicles background', -121, -75, 0.85, 0.85);
-				add(icicles);
-				var stageFront:BGSprite = new BGSprite('main stage', -490, 6, 1, 1);
-				var stageFront:BGSprite = new BGSprite('main stage spoopy', -490, 6, 1, 1);
+				case 'TOO-SLOW': // week 1
+			/*
+			{
+				"directory": "",
+				"defaultZoom": 0.8,
+				"isPixelStage": false,
 
-				var bg:BGSprite = new BGSprite('', -650, 600, 0.9, 0.9);
+				"boyfriend": [870, 100],
+				"girlfriend": [400, 130],
+				"opponent": [50, 93]
+			}
+			*/
+
+				var bg = new BGSprite('TOO-SLOW/background ladders', -200, -290, 0.75, 0.75);
+				add(bg);
+				var icicles = new BGSprite('TOO-SLOW/icicles background', -121, -75, 0.85, 0.85);
+				add(icicles);
+				fakeTooSlow = new BGSprite('TOO-SLOW/main stage', -490, 6, 1, 1);
+				add(fakeTooSlow);
+				urTooSlow = new BGSprite('TOO-SLOW/main stage spoopy', -490, 6, 1, 1);
+				add(urTooSlow);
+				urTooSlow.visible=false;
+
+
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
