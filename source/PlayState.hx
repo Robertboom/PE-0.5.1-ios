@@ -432,8 +432,8 @@ class PlayState extends MusicBeatState
 				add(bg);
 				var icicles = new BGSprite('icicles background', -121, -75, 0.85, 0.85);
 				add(icicles);
-				var stage = new BGSprite('main stage', -490, 6, 1, 1);
-				var stage = new BGSprite('main stage spoopy', -490, 6, 1, 1);
+				var stageFront:BGSprite = new BGSprite('main stage', -490, 6, 1, 1);
+				var stageFront:BGSprite = new BGSprite('main stage spoopy', -490, 6, 1, 1);
 
 				var bg:BGSprite = new BGSprite('', -650, 600, 0.9, 0.9);
 			case 'spooky': //Week 2
