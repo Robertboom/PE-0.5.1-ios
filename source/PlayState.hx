@@ -429,14 +429,26 @@ class PlayState extends MusicBeatState
 				}
 				
 				case 'TOO-SLOW': // week 1
+			/*
+			{
+				"directory": "",
+				"defaultZoom": 0.8,
+				"isPixelStage": false,
+
+				"boyfriend": [870, 100],
+				"girlfriend": [400, 130],
+				"opponent": [50, 93]
+			}
+			*/
+
 				var bg = new BGSprite('TOO-SLOW/background ladders', -200, -290, 0.75, 0.75);
 				add(bg);
 				var icicles = new BGSprite('TOO-SLOW/icicles background', -121, -75, 0.85, 0.85);
 				add(icicles);
-				var main stage = new BGSprite('TOO-SLOW/main stage', -490, 6, 1, 1);
-				add(main stage);
-				var main stage spoopy = new BGSprite('TOO-SLOW/main stage spoopy', -490, 6, 1, 1);
-				add(main stage spoopy);
+				var mainstage = new BGSprite('TOO-SLOW/main stage', -490, 6, 1, 1);
+				add(mainstage);
+				var mainstagespoopy = new BGSprite('TOO-SLOW/main stage spoopy', -490, 6, 1, 1);
+				add(mainstagespoopy);
 				urTooSlow.visible=false;
 
 			case 'spooky': //Week 2
