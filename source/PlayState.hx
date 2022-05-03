@@ -68,16 +68,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['deacon', 0.2], //From 0% to 19%
-		['Weenie Hut Jr. Customer', 0.4], //From 20% to 39%
-		['D`oh!', 0.5], //From 40% to 49%
-		['Dude (Dude)', 0.6], //From 50% to 59%
-		['Merhaps', 0.69], //From 60% to 68%
-		['Well well well....', 0.7], //69%
-		['I am inside your home', 0.8], //From 70% to 79%
-		['Doin good I think', 0.9], //From 80% to 89%
-		['Bitch getter', 1], //From 90% to 99%
-		['Deeztastic!!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['You Suck!', 0.2], //From 0% to 19%
+		['Shit', 0.4], //From 20% to 39%
+		['Bad', 0.5], //From 40% to 49%
+		['Bruh', 0.6], //From 50% to 59%
+		['Meh', 0.69], //From 60% to 68%
+		['Nice', 0.7], //69%
+		['Good', 0.8], //From 70% to 79%
+		['Great', 0.9], //From 80% to 89%
+		['Sick!', 1], //From 90% to 99%
+		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
@@ -427,29 +427,14 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-				
-				case 'TOO-SLOW': // week 1
-			/*
-			{
-				"directory": "",
-				"defaultZoom": 0.8,
-				"isPixelStage": false,
-
-				"boyfriend": [870, 100],
-				"girlfriend": [400, 130],
-				"opponent": [50, 93]
-			}
-			*/
-
-				var bg = new BGSprite('TOO-SLOW/background ladders', -200, -290, 0.75, 0.75);
+				case 'TOO-SLOW': //Week 1
+				var bg:BGSprite = new BGSprite('background ladders', -200, -290, 0.75, 0.75);
 				add(bg);
-				var icicles = new BGSprite('TOO-SLOW/icicles background', -121, -75, 0.85, 0.85);
-				add(icicles);
-				var mainstage = new BGSprite('TOO-SLOW/main stage', -490, 6, 1, 1);
-				add(mainstage);
-				var mainstagespoopy = new BGSprite('TOO-SLOW/main stage spoopy', -490, 6, 1, 1);
-				add(mainstagespoopy);
-				urTooSlow.visible=false;
+
+				var icicles:BGSprite = new BGSprite('icicles background', -650, 600, 0.9, 0.9);
+				
+				var mainstage:BGSprite = new BGSprite('main stage', -650, 600, 0.9, 0.9);
+				var mainstagespoopy:BGSprite = new BGSprite('main stage spoopy', -650, 600, 0.9, 0.9);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
