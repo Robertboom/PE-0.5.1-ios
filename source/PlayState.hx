@@ -427,6 +427,7 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				
 				case 'TOO-SLOW': // week 1
 			/*
 			{
