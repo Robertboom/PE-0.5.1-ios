@@ -433,10 +433,10 @@ class PlayState extends MusicBeatState
 				add(bg);
 				var icicles = new BGSprite('TOO-SLOW/icicles background', -121, -75, 0.85, 0.85);
 				add(icicles);
-				fakeTooSlow = new BGSprite('TOO-SLOW/main stage', -490, 6, 1, 1);
-				add(bg);
-				urTooSlow = new BGSprite('TOO-SLOW/main stage spoopy', -490, 6, 1, 1);
-				add(bg);
+				var main stage = new BGSprite('TOO-SLOW/main stage', -490, 6, 1, 1);
+				add(main stage);
+				var main stage spoopy = new BGSprite('TOO-SLOW/main stage spoopy', -490, 6, 1, 1);
+				add(main stage spoopy);
 				urTooSlow.visible=false;
 
 			case 'spooky': //Week 2
