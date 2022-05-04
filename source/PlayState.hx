@@ -217,9 +217,6 @@ class PlayState extends MusicBeatState
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
-	
-	var freezeCounter:Int = 0; // used for Ice Notes
-	var maxFreeze:Int = 4;
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -2674,7 +2671,7 @@ class PlayState extends MusicBeatState
 				gfSpeed = value;
 
 			case 'Blammed Lights':
-				var lightId:Int = Std.parseInt(value1);
+				var lightId:Int = Std.parseInt(value1); xx
 				if(Math.isNaN(lightId)) lightId = 0;
 
 				if(lightId > 0 && curLightEvent != lightId) {
@@ -2787,6 +2784,21 @@ class PlayState extends MusicBeatState
 
 					curLight = 0;
 					curLightEvent = 0;
+				}
+				
+				case 'Lyrics':
+				if(lyrics!=null){
+					remove(lyrics);
+					lyrics.destroy();
+				}
+				if(value2.trim()=='')value2='#FFFFFF';
+				if(value1.trim()!=''){
+			 		lyrics = new FlxText(0, 570, 0, value1, 32);
+					lyrics.cameras = [camOther];
+					lyrics.setFormat(Paths.font("PressStart2P.ttf"), 24, FlxColor.fromString(value2), CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					lyrics.screenCenter(X);
+					lyrics.updateHitbox();
+					add(lyrics);
 				}
 
 			case 'Kill Henchmen':
@@ -3809,32 +3821,6 @@ class PlayState extends MusicBeatState
 					note.destroy();
 				}
 				return;
-			}else{
-				switch(note.noteType){
-					case 'Ice Note':
-						combo = 0;
-						if(indicatorTween!=null)indicatorTween.cancel();
-						indicatorTween = FlxTween.tween(frozenIndicators, {alpha: 1}, 0.25, {ease: FlxEase.quadInOut,
-							onComplete: function(twn:FlxTween) {
-								indicatorTween = null;
-							}
-						});
-						rightIndicator.animation.play("idle",true);
-						leftIndicator.animation.play("hit",true);
-						freezeCounter = maxFreeze+1;
-						FlxG.sound.play(Paths.sound("hitIce"),1);
-						frozenBF.animation.play("idle",true);
-						frozenBF.visible=true;
-						boyfriend.visible=false;
-						note.wasGoodHit = true;
-						if (!note.isSustainNote)
-						{
-							note.kill();
-							notes.remove(note, true);
-							note.destroy();
-						}
-						return;
-				}
 			}
 
 			if (!note.isSustainNote)
