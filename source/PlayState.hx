@@ -2785,7 +2785,6 @@ class PlayState extends MusicBeatState
 					curLight = 0;
 					curLightEvent = 0;
 				}
-				
 				case 'Lyrics':
 				if(lyrics!=null){
 					remove(lyrics);
@@ -2799,8 +2798,7 @@ class PlayState extends MusicBeatState
 					lyrics.screenCenter(X);
 					lyrics.updateHitbox();
 					add(lyrics);
-				}
-
+				
 			case 'Kill Henchmen':
 				killHenchmen();
 
