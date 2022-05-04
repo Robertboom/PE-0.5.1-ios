@@ -86,7 +86,7 @@
 				-9
 			],
 			"loop": false,
-			"anim": "danceLeft",
+			"anim": "idle",
 			"fps": 24,
 			"name": "GF Dancing Beat",
 			"indices": [
@@ -114,7 +114,7 @@
 				-9
 			],
 			"loop": false,
-			"anim": "danceRight",
+			"anim": "danceRightsussy",
 			"fps": 24,
 			"name": "GF Dancing Beat",
 			"indices": [
