@@ -3809,7 +3809,7 @@ class PlayState extends MusicBeatState
 					note.destroy();
 				}
 				return;
-				}else{
+			}else{
 				switch(note.noteType){
 					case 'Ice Note':
 						combo = 0;
