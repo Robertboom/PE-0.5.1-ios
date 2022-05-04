@@ -2670,6 +2670,22 @@ class PlayState extends MusicBeatState
 				if(Math.isNaN(value)) value = 1;
 				gfSpeed = value;
 
+            case 'Fireworks':
+				trace("old event harharharhahrh bitch :3");
+			case 'Lyrics':
+				if(lyrics!=null){
+					remove(lyrics);
+					lyrics.destroy();
+				}
+				if(value2.trim()=='')value2='#FFFFFF';
+				if(value1.trim()!=''){
+			 		lyrics = new FlxText(0, 570, 0, value1, 32);
+					lyrics.cameras = [camOther];
+					lyrics.setFormat(Paths.font("PressStart2P.ttf"), 24, FlxColor.fromString(value2), CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					lyrics.screenCenter(X);
+					lyrics.updateHitbox();
+					add(lyrics);
+				}
 			case 'Blammed Lights':
 				var lightId:Int = Std.parseInt(value1); xx
 				if(Math.isNaN(lightId)) lightId = 0;
@@ -2785,20 +2801,7 @@ class PlayState extends MusicBeatState
 					curLight = 0;
 					curLightEvent = 0;
 				}
-				case 'Lyrics':
-				if(lyrics!=null){
-					remove(lyrics);
-					lyrics.destroy();
-				}
-				if(value2.trim()=='')value2='#FFFFFF';
-				if(value1.trim()!=''){
-			 		lyrics = new FlxText(0, 570, 0, value1, 32);
-					lyrics.cameras = [camOther];
-					lyrics.setFormat(Paths.font("PressStart2P.ttf"), 24, FlxColor.fromString(value2), CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-					lyrics.screenCenter(X);
-					lyrics.updateHitbox();
-					add(lyrics);
-				
+
 			case 'Kill Henchmen':
 				killHenchmen();
 
