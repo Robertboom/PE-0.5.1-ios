@@ -3,17 +3,6 @@
 		{
 			"loop": false,
 			"offsets": [
-				59,
-				-20
-			],
-			"anim": "hey",
-			"fps": 24,
-			"name": "spooky kids YEAH!!",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
 				130,
 				-10
 			],
@@ -105,5 +94,5 @@
 		0
 	],
 	"sing_duration": 4,
-	"scale": 2
+	"scale": 1
 }
