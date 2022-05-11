@@ -73,7 +73,7 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "reload",
+			"anim": "hey",
 			"indices": [],
 			"name": "Pico Gun Charge"
 		}
