@@ -161,7 +161,7 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "Dodge down",
+			"anim": "singDOWN-alt",
 			"indices": [],
 			"name": "BF NOTE DOWN DODGE"
 		},
@@ -172,7 +172,7 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "Dodge left",
+			"anim": "singLEFT-alt",
 			"indices": [],
 			"name": "BF NOTE LEFT DODGE"
 		},
@@ -185,7 +185,7 @@
 			"fps": 24,
 			"anim": "Dodge up",
 			"indices": [],
-			"name": "BF NOTE UP DODGE"
+			"name": "singUP-alt"
 		},
 		{
 			"offsets": [
@@ -196,7 +196,7 @@
 			"fps": 24,
 			"anim": "Dodge right",
 			"indices": [],
-			"name": "BF NOTE RIGHT DODGE"
+			"name": "singRIGHT-alt"
 		}
 	],
 	"no_antialiasing": false,
