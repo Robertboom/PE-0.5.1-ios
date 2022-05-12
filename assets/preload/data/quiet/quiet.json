@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "finn-alt",
+		"player2": "bf-christmas",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -8892,7 +8892,7 @@
 		"song": "Quiet",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "stageQM",
+		"stage": "stage",
 		"speed": 3.1,
 		"bpm": 187
 	}
