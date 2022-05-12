@@ -8892,7 +8892,7 @@
 		"song": "Quiet",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "stage",
+		"stage": "e",
 		"speed": 3.1,
 		"bpm": 187
 	}
