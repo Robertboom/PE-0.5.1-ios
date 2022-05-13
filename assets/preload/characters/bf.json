@@ -59,7 +59,7 @@
 				5,
 				-6
 			],
-			"anim": "singUP",
+			"anim": "singUP-alt",
 			"fps": 24,
 			"name": "BF NOTE UP0",
 			"indices": []
