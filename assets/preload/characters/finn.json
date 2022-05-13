@@ -8,7 +8,7 @@
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Finn Alt Left",
+			"name": "FINN ALT 2 LEFT",
 			"indices": []
 		},
 		{
@@ -19,7 +19,7 @@
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Finn Alt down",
+			"name": "FINN ALT 2 DOWN",
 			"indices": []
 		},
 		{
@@ -30,7 +30,7 @@
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "Finn Alt Up",
+			"name": "FINN ALT 2 UP",
 			"indices": []
 		},
 		{
@@ -41,7 +41,7 @@
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Finn alt Right",
+			"name": "FINN ALT 2 RIGHT",
 			"indices": []
 		},
 		{
@@ -97,7 +97,7 @@
 			"fps": 24,
 			"anim": "idle",
 			"loop": true,
-			"name": "FINN ALT IDLE"
+			"name": "FINN ALT  2 IDLE"
 		},
 		{
 			"offsets": [
