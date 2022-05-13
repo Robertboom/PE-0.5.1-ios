@@ -22,6 +22,48 @@
 			"name": "BF NOTE LEFT0",
 			"indices": []
 		},
+
+{
+			"loop": false,
+			"offsets": [
+				5,
+				-6
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		}, {
+			"loop": false,
+			"offsets": [
+				5,
+				-6
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
+		}, {
+			"loop": false,
+			"offsets": [
+				5,
+				-6
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		}, {
+			"loop": false,
+			"offsets": [
+				5,
+				-6
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
 		{
 			"loop": false,
 			"offsets": [
