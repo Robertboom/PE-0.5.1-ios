@@ -427,6 +427,13 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				case 'blue': //Week 1
+				var bg:BGSprite = new BGSprite('fatbg', -769, 1, -409.6);
+				add(bg);
+				var trash:BGSprite = new BGSprite('trashcan', 362.8,-57.5);
+				add(trash);
+				var bombox:BGSprite = new BGSprite('boombox', 719.6, 57);
+				add(bombox);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
