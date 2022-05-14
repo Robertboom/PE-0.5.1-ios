@@ -1,0 +1,754 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "blue",
+		"player1": "kit",
+		"player2": "blue",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				5333.33333333333,
+				[
+					[
+						"Intro",
+						"Skyblue",
+						"by skyblueanon"
+					]
+				]
+			],
+			[
+				8000,
+				[
+					[
+						"Intro",
+						"NuSky",
+						"by kitsuneskulls"
+					]
+				]
+			],
+			[
+				20166.6666666667,
+				[
+					[
+						"Play Animation",
+						"boombox",
+						"gf"
+					]
+				]
+			],
+			[
+				20916.6666666667,
+				[
+					[
+						"Kill Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				21333.3333333333,
+				[
+					[
+						"Object Play Animation",
+						"boombox",
+						"beat"
+					]
+				]
+			],
+			[
+				21666.6666666667,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				31833.3333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"onBeat",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"onBeat",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				32083.3333333333,
+				[
+					[
+						"Play Animation",
+						"gameboy",
+						"gf"
+					]
+				]
+			],
+			[
+				32166.6666666667,
+				[
+					[
+						"Object Play Animation",
+						"gameboy",
+						"chip"
+					]
+				]
+			],
+			[
+				52000,
+				[
+					[
+						"Set Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				53000,
+				[
+					[
+						"Play Animation",
+						"gameboy",
+						"gf"
+					]
+				]
+			],
+			[
+				53083.3333333334,
+				[
+					[
+						"Object Play Animation",
+						"gameboy",
+						"idle"
+					]
+				]
+			],
+			[
+				53250,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				53250,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				58666.6666666667,
+				[
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-alt"
+					]
+				]
+			],
+			[
+				58666.6666666667,
+				[
+					[
+						"Alt Idle Animation",
+						"bf",
+						"-alt"
+					]
+				]
+			],
+			[
+				63333.3333333334,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				63500,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				63583.3333333334,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				63666.6666666667,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				73333.3333333334,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				75000,
+				[
+					[
+						"Thought BF",
+						"",
+						"1"
+					]
+				]
+			],
+			[
+				75333.3333333334,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						"4"
+					]
+				]
+			],
+			[
+				77666.6666666667,
+				[
+					[
+						"Thought BF",
+						"",
+						"2"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Thought BF",
+						"off",
+						"2"
+					]
+				]
+			],
+			[
+				80666.6666666667,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						"4"
+					]
+				]
+			],
+			[
+				86000,
+				[
+					[
+						"Thought GF",
+						"",
+						"1"
+					]
+				]
+			],
+			[
+				86333.3333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						"4"
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Thought GF",
+						"",
+						"2"
+					]
+				]
+			],
+			[
+				90666.6666666666,
+				[
+					[
+						"Thought GF",
+						"off",
+						"2"
+					]
+				]
+			],
+			[
+				93333.3333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						"0.5"
+					]
+				]
+			],
+			[
+				94583.3333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						"0.2"
+					]
+				]
+			],
+			[
+				94666.6666666666,
+				[
+					[
+						"Play Animation",
+						"chachacha",
+						"bf"
+					]
+				]
+			],
+			[
+				95208.3333333333,
+				[
+					[
+						"Camera Follow Pos",
+						"277",
+						"300"
+					]
+				]
+			],
+			[
+				95249.9999999999,
+				[
+					[
+						"Play Animation",
+						"chachacha",
+						"gf"
+					]
+				]
+			],
+			[
+				95333.3333333333,
+				[
+					[
+						"Play Animation",
+						"chachacha",
+						"dad"
+					]
+				]
+			],
+			[
+				95499.9999999999,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				95666.6666666666,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				95833.3333333333,
+				[
+					[
+						"Play Animation",
+						"gameboy",
+						"gf"
+					]
+				]
+			],
+			[
+				95958.3333333333,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					]
+				]
+			],
+			[
+				96083.3333333333,
+				[
+					[
+						"Object Play Animation",
+						"gameboy",
+						"chip"
+					]
+				]
+			],
+			[
+				106000,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				106166.666666667,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				106333.333333333,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				116666.666666667,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				116833.333333333,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				117000,
+				[
+					[
+						"Play Animation",
+						"clap",
+						"gf"
+					]
+				]
+			],
+			[
+				126666.666666666,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				127000,
+				[
+					[
+						"Set Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				127333.333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				127666.666666666,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						""
+					]
+				]
+			],
+			[
+				128000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.4",
+						""
+					]
+				]
+			],
+			[
+				128333.333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				133333.333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						"3"
+					]
+				]
+			],
+			[
+				137333.333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				137500,
+				[
+					[
+						"Play Animation",
+						"gameboy",
+						"gf"
+					]
+				]
+			],
+			[
+				137583.333333333,
+				[
+					[
+						"Object Play Animation",
+						"gameboy",
+						"idle"
+					]
+				]
+			],
+			[
+				137666.666666667,
+				[
+					[
+						"Set Cam Zoom",
+						"1.4",
+						""
+					]
+				]
+			],
+			[
+				138000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.5",
+						""
+					]
+				]
+			],
+			[
+				138166.666666667,
+				[
+					[
+						"Play Animation",
+						"click",
+						"gf"
+					]
+				]
+			],
+			[
+				138250,
+				[
+					[
+						"Object Play Animation",
+						"boombox",
+						"libera"
+					]
+				]
+			],
+			[
+				138333.333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.7",
+						""
+					]
+				]
+			],
+			[
+				138500,
+				[
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-trumpet"
+					]
+				]
+			],
+			[
+				138500,
+				[
+					[
+						"Alt Idle Animation",
+						"gf",
+						"-trumpet"
+					]
+				]
+			],
+			[
+				138666.666666667,
+				[
+					[
+						"onBeat",
+						"f",
+						""
+					]
+				]
+			],
+			[
+				138666.666666667,
+				[
+					[
+						"onBeat",
+						"f",
+						""
+					]
+				]
+			],
+			[
+				138750,
+				[
+					[
+						"Set Cam Zoom",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				139250,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						"4"
+					],
+					[
+						"Camera Follow Pos",
+						"540",
+						"60"
+					]
+				]
+			],
+			[
+				149416.666666667,
+				[
+					[
+						"Set GF Speed",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				162666.666666667,
+				[
+					[
+						"Trigger BG Ghouls",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "yotsuba",
+		"bpm": 180,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Blue"
+	}
+}
