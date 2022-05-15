@@ -144,14 +144,14 @@
 			"name": "BF Dead confirm"
 		}
 	],
-	"no_antialiasing": true,
+	"no_antialiasing": false,
 	"image": "characters/BF_Assets_1",
 	"position": [
 		0,
 		350
 	],
 	"healthicon": "bf",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
 		49,
 		176,
