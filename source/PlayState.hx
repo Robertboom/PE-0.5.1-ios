@@ -2425,8 +2425,25 @@ class PlayState extends MusicBeatState
 								}
 							}
 						}
-					} else {
-						daNote.y = (strumY - 0.45 * (Conductor.songPosition - daNote.strumTime) * roundedSpeed);
+					}
+					if (!daNote.mustPress && daNote.wasGoodHit && !daNote.hitByOpponent && !daNote.ignoreNote)
+				{
+					opponentNoteHit(daNote);
+					//health drain 
+					if (health >= 0.4 && ClientPrefs.HPDrain)
+					health -= 0.03;
+				}
+
+				if(daNote.mustPress && cpuControlled) {
+					if(daNote.isSustainNote) {
+						if(daNote.canBeHit) {
+							goodNoteHit(daNote);
+						}
+					} else if(daNote.strumTime <= Conductor.songPosition || (daNote.isSustainNote && daNote.canBeHit && daNote.mustPress)) {
+						goodNoteHit(daNote);
+					}
+				}
+						//daNote.y = (strumY - 0.45 * (Conductor.songPosition - daNote.strumTime) * roundedSpeed);
 
 						if(!ClientPrefs.keSustains)
 						{
