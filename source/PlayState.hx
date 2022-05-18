@@ -2452,7 +2452,7 @@ class PlayState extends MusicBeatState
 					opponentNoteHit(daNote);
 					if(SONG.player1 == 'hgu')
 		{
-		   health -= 0.01;
+		   health += 0.05;
 		   }
 				}
 
