@@ -2450,7 +2450,7 @@ class PlayState extends MusicBeatState
 				if (!daNote.mustPress && daNote.wasGoodHit && !daNote.hitByOpponent && !daNote.ignoreNote)
 				{
 					opponentNoteHit(daNote);
-					if(SONG.player2 == 'hgu')
+					if(SONG.player1 == 'hgu')
 		{
 		   health -= 0.01;
 		   }
