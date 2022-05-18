@@ -2011,7 +2011,7 @@ class PlayState extends MusicBeatState
 	override public function onFocus():Void
 	{
 		#if desktop
-		if (health> 0 && !paused)
+		if (health > 0 && !paused)
 		{
 			if (Conductor.songPosition > 0.0)
 			{
@@ -2453,6 +2453,12 @@ class PlayState extends MusicBeatState
 					//health drain 
 					if (health >= 0.4 && ClientPrefs.HPDrain)
 					health -= 0.03;
+				}
+
+				if(daNote.mustPress && cpuControlled) {
+					if(daNote.isSustainNote) {
+						if(daNote.canBeHit) {
+							goodNoteHit(daNote);
 				}
 
 				if(daNote.mustPress && cpuControlled) {
