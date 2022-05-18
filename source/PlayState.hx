@@ -2454,13 +2454,6 @@ class PlayState extends MusicBeatState
 					if (health >= 0.4 && ClientPrefs.HPDrain)
 					health -= 0.03;
 				}
-
-				if(daNote.mustPress && cpuControlled) {
-					if(daNote.isSustainNote) {
-						if(daNote.canBeHit) {
-							goodNoteHit(daNote);
-				}
-
 				if(daNote.mustPress && cpuControlled) {
 					if(daNote.isSustainNote) {
 						if(daNote.canBeHit) {
