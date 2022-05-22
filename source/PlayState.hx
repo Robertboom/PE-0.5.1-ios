@@ -428,11 +428,11 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 				case 'blue': //Week 1
-				var bg:BGSprite = new BGSprite('fatbg', -769, 1, -409);
+				var bg:BGSprite = new BGSprite('fatbg', -769, -409, 0.9, 0.9);
 				add(bg);
-				var trash:BGSprite = new BGSprite('trashcan', 362,-57);
+				var trash:BGSprite = new BGSprite('trashcan', 362,-57, 0.9, 0.9);
 				add(trash);
-				var bombox:BGSprite = new BGSprite('boombox', 719, 57);
+				var bombox:BGSprite = new BGSprite('boombox', 719, 57, 0.9, 0.9);
 				add(bombox);
 
 			case 'spooky': //Week 2
