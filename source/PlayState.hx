@@ -3732,7 +3732,7 @@ class PlayState extends MusicBeatState
 			if (SONG.notes[curSection] != null)
 			{
 				if (SONG.notes[curSection].altAnim || note.noteType == 'Alt Animation') {
-					altAnim = '-alt';
+					altAnim = '-alt,-tails,-knuckles,-egg';
 				}
 			}
 
