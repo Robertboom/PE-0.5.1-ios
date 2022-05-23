@@ -436,15 +436,6 @@ class PlayState extends MusicBeatState
 				}
 				add(halloweenBG);
 
-				halloweenWhite = new BGSprite(null, -FlxG.width, -FlxG.height, 0, 0);
-				halloweenWhite.makeGraphic(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3), FlxColor.WHITE);
-				halloweenWhite.alpha = 0;
-				halloweenWhite.blend = ADD;
-
-				//PRECACHE SOUNDS
-				CoolUtil.precacheSound('thunder_1');
-				CoolUtil.precacheSound('thunder_2');
-
 			case 'philly': //Week 3
 				var city:BGSprite = new BGSprite('philly/city', -10 + 32, 0 + 16, 0.3, 0.3);
 				city.setGraphicSize(Std.int(city.width * 0.85));
