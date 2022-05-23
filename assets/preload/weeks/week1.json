@@ -1,8 +1,8 @@
 {
 	"songs": [
-		["wistfulness", "mouse-sad", [146, 113, 253]],
-		["dejection", "happy", [146, 113, 253]],
-		["unknown-suffering", "mouse", [146, 113, 253]]
+		["wistfulness", "mouse-sad", [82, 89, 81]],
+		["dejection", "happy", [82, 89, 81]],
+		["unknown-suffering", "mouse", [82, 89, 81]]
 	],
 
 	"weekCharacters": [
@@ -10,10 +10,11 @@
 		"",
 		""
 	],
-	"weekBackground": "stage",
+	"weekBackground": "suicide",
 
 	"storyName": "is suicide really the best option?",
 	"weekBefore": "tutorial",
+        "difficulties": "hard",
 	"weekName": "Week 1",
 	"startUnlocked": true,
 
