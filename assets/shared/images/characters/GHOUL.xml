@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GHOUL.png">
+	<!-- Created with Adobe Animate version 20.0.2.22168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GHOUL DOWN0000" x="0" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0001" x="0" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0002" x="473" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0003" x="473" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0004" x="946" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0005" x="946" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0006" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0007" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0008" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0009" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0010" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0011" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0012" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL DOWN0013" x="1419" y="0" width="423" height="451"/>
+	<SubTexture name="GHOUL IDLE0000" x="1892" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0001" x="1892" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0002" x="2364" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0003" x="2364" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0004" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0005" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0006" x="3308" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0007" x="3308" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0008" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0009" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0010" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0011" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0012" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL IDLE0013" x="2836" y="0" width="422" height="450"/>
+	<SubTexture name="GHOUL LEFT0000" x="0" y="501" width="554" height="663"/>
+	<SubTexture name="GHOUL LEFT0001" x="0" y="501" width="554" height="663"/>
+	<SubTexture name="GHOUL LEFT0002" x="604" y="501" width="552" height="663" frameX="-2" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0003" x="604" y="501" width="552" height="663" frameX="-2" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0004" x="1206" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0005" x="1206" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0006" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0007" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0008" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0009" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0010" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0011" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0012" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL LEFT0013" x="1807" y="501" width="551" height="663" frameX="-3" frameY="0" frameWidth="554" frameHeight="663"/>
+	<SubTexture name="GHOUL RIGHT0000" x="2408" y="501" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0001" x="2408" y="501" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0002" x="3212" y="501" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0003" x="3212" y="501" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0004" x="0" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0005" x="0" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0006" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0007" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0008" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0009" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0010" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0011" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0012" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL RIGHT0013" x="804" y="1214" width="754" height="450"/>
+	<SubTexture name="GHOUL UP0000" x="1608" y="1214" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0001" x="1608" y="1214" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0002" x="2266" y="1214" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0003" x="2266" y="1214" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0004" x="2924" y="1214" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0005" x="2924" y="1214" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0006" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0007" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0008" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0009" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0010" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0011" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0012" x="0" y="1816" width="608" height="552"/>
+	<SubTexture name="GHOUL UP0013" x="0" y="1816" width="608" height="552"/>
+</TextureAtlas>
