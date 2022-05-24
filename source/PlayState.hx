@@ -427,6 +427,24 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				case 'depths': //Week 1
+				var bg:BGSprite = new BGSprite('sinkdepths', -50, -80, 0.9, 0.9);
+				add(bg);
+				
+				var floor:BGSprite = new BGSprite('sinkfloor', -50, -80, 0.9, 0.9);
+				add(floor);
+				
+				var sinkceiling:BGSprite = new BGSprite('sinkceiling', -50, -80, 0.9, 0.9);
+				add(sinkceiling);
+				
+				var ball:BGSprite = new BGSprite('ball', -80, 200, 0.9, 0.9);
+				add(ball);
+				
+				var waves:BGSprite = new BGSprite('ball', -80, 200, 0.9, 0.9);
+				add(waves);
+				
+				var vignette:BGSprite = new BGSprite('vignette', 0, 0, 0.9, 0.9);
+				add(vignette);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
