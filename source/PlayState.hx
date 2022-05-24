@@ -447,11 +447,6 @@ class PlayState extends MusicBeatState
 				
 				var waves:BGSprite = new BGSprite('ball', -80, 200, 0.9, 0.9);
 				add(waves);
-				
-				var vignette:BGSprite = new BGSprite('vignette', 0, 0, 0.9, 0.9);
-				vignette.setGraphicSize(Std.int(vignette.width * 1.1));
-				
-				add(vignette);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
