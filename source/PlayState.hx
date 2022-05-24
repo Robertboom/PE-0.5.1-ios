@@ -429,16 +429,16 @@ class PlayState extends MusicBeatState
 				}
 				case 'depths': //Week 1
 				var bg:BGSprite = new BGSprite('sinkdepths', -50, -80, 0.9, 0.9);
-				bg.setGraphicSize(Std.int(bg.width * 1.1));
+				bg.setGraphicSize(Std.int(bg.width * 1.11));
 				
 				add(bg);
 				
 				var floor:BGSprite = new BGSprite('sinkfloor', -50, -80, 0.9, 0.9);
 				add(floor);
-				floor.setGraphicSize(Std.int(floor.width * 1.1));
+				floor.setGraphicSize(Std.int(floor.width * 1.11));
 				
 				var sinkceiling:BGSprite = new BGSprite('sinkceiling', -50, -80, 0.9, 0.9);
-				sinkceiling.setGraphicSize(Std.int(sinkceiling.width * 1.1));
+				sinkceiling.setGraphicSize(Std.int(sinkceiling.width * 1.11));
 				
 				add(sinkceiling);
 				
