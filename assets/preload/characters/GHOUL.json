@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				120,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "GHOUL IDLE"
+		},
+		{
+			"offsets": [
+				367,
+				267
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "GHOUL LEFT"
+		},
+		{
+			"offsets": [
+				156,
+				-84
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "GHOUL DOWN"
+		},
+		{
+			"offsets": [
+				328,
+				117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "GHOUL UP"
+		},
+		{
+			"offsets": [
+				250,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "GHOUL RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GHOUL",
+	"position": [
+		740,
+		0
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		48,
+		138,
+		104
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.55
+}
