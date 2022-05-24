@@ -3794,6 +3794,21 @@ class PlayState extends MusicBeatState
 					note.destroy();
 				}
 				return;
+				case 'sword note': //sword
+						if(boyfriend.animation.getByName('hurt') != null) {
+							boyfriend.playAnim('hurt', true);
+							boyfriend.specialAnim = true;
+						}
+				}
+				
+				note.wasGoodHit = false;
+				if (!note.isSustainNote)
+				{
+					note.kill();
+					notes.remove(note, true);
+					note.destroy();
+				}
+				return;
 			}
 
 			if (!note.isSustainNote)
