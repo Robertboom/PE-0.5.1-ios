@@ -437,6 +437,10 @@ class PlayState extends MusicBeatState
 				
 				add(front);
 				
+				var tv:BGSprite = new BGSprite('TV_V2_off', -62, 540, 0.89, 0.89);
+				tv.setGraphicSize(Std.int(tv.width * 1.2));
+				add(tv);
+				
 				case 'street': //Week 1
 				var bg:BGSprite = new BGSprite('streetBack', -750, -145, 0.9, 0.9);
 				add(bg);
@@ -445,6 +449,10 @@ class PlayState extends MusicBeatState
 				front.setGraphicSize(Std.int(front.width * 1.15));
 				
 				add(front);
+				
+				var tv:BGSprite = new BGSprite('TV_V2_off', -62, 540, 0.89, 0.89);
+				tv.setGraphicSize(Std.int(tv.width * 1.2));
+				add(tv);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
