@@ -427,12 +427,13 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				
 				case 'street-cute': //Week 1
 				var bg:BGSprite = new BGSprite('streetBackCute', -750, -145, 0.9, 0.9);
 				add(bg);
 				
 				var front:BGSprite = new BGSprite('streetFrontCute', -820, 710, 0.9, 0.9);
-				streetFront.setGraphicSize(Std.int(streetFront.width * 1.15));
+				bg.setGraphicSize(Std.int(bg.width * 1.15));
 				
 				add(front);
 				
@@ -441,7 +442,7 @@ class PlayState extends MusicBeatState
 				add(bg);
 				
 				var front:BGSprite = new BGSprite('streetFront', -820, 710, 0.9, 0.9);
-				streetFront.setGraphicSize(Std.int(streetFront.width * 1.15));
+				front.setGraphicSize(Std.int(front.width * 1.15));
 				
 				add(front);
 
@@ -1160,6 +1161,9 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 
 case 'carefree':
+    startDialogue(dialogueJson);
+    
+    case 'censory-overload':
     startDialogue(dialogueJson);
     
 				default:
