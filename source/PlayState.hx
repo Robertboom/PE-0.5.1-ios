@@ -1168,14 +1168,11 @@ class PlayState extends MusicBeatState
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 
-case 'carefree':
+    case 'carefree':
     startDialogue(dialogueJson);
     
     case 'careless':
     startDialogue(dialogueJson);
-    
-    case 'careless':
-    startDialogue(dialogueendJson);
     
     case 'censory-overload':
     startDialogue(dialogueJson);
