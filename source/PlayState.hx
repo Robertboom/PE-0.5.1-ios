@@ -1174,6 +1174,9 @@ case 'carefree':
     case 'careless':
     startDialogue(dialogueJson);
     
+    case 'careless':
+    startDialogue(dialogueendJson);
+    
     case 'censory-overload':
     startDialogue(dialogueJson);
     
@@ -1183,9 +1186,6 @@ case 'carefree':
 			seenCutscene = true;
 		} else {
 			startCountdown();
-			
-			case 'careless':
-    startDialogue(dialogueENDJson);
 		}
 		RecalculateRating();
 
