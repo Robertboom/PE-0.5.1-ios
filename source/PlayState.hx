@@ -1161,10 +1161,7 @@ class PlayState extends MusicBeatState
 
 case 'carefree':
     startDialogue(dialogueJson);
-
-case 'censory-overload':
-    startDialogue(dialogueJson);
-
+    
 				default:
 					startCountdown();
 			}
