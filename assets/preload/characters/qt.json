@@ -57,7 +57,7 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/qt-port/qt",
+	"image": "characters/qt",
 	"position": [
 		0,
 		200
