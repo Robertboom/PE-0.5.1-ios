@@ -1171,6 +1171,9 @@ class PlayState extends MusicBeatState
 case 'carefree':
     startDialogue(dialogueJson);
     
+    case 'careless':
+    startDialogue(dialogueJson);
+    
     case 'censory-overload':
     startDialogue(dialogueJson);
     
@@ -1180,6 +1183,9 @@ case 'carefree':
 			seenCutscene = true;
 		} else {
 			startCountdown();
+			
+			case 'careless':
+    startDialogue(dialogueENDJson);
 		}
 		RecalculateRating();
 
