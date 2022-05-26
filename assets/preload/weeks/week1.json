@@ -1,8 +1,8 @@
 {
 	"songs": [
-		["carefree", "qt", [146, 113, 253]],
-		["careless", "qt", [146, 113, 253]],
-		["Dad Battle", "dad", [146, 113, 253]]
+		["carefree", "qt", [255, 165, 182]],
+		["careless", "qt", [255, 165, 182]],
+		["censory-overload", "kb", [255, 0, 0]]
 	],
 
 	"weekCharacters": [
