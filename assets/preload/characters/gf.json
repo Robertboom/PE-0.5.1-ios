@@ -3,7 +3,7 @@
 		{
 			"offsets": [
 				0,
-				-18
+				-183
 			],
 			"loop": false,
 			"anim": "cheer",
@@ -14,7 +14,7 @@
 		{
 			"offsets": [
 				0,
-				-27
+				-192
 			],
 			"loop": false,
 			"anim": "singLEFT",
@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				0,
-				-42
+				-208
 			],
 			"loop": false,
 			"anim": "singDOWN",
@@ -36,7 +36,7 @@
 		{
 			"offsets": [
 				0,
-				-14
+				-179
 			],
 			"loop": false,
 			"anim": "singUP",
@@ -47,7 +47,7 @@
 		{
 			"offsets": [
 				0,
-				-15
+				-181
 			],
 			"loop": false,
 			"anim": "singRIGHT",
@@ -58,7 +58,7 @@
 		{
 			"offsets": [
 				-2,
-				-43
+				-209
 			],
 			"loop": false,
 			"anim": "sad",
@@ -83,7 +83,7 @@
 		{
 			"offsets": [
 				0,
-				-9
+				-176
 			],
 			"loop": false,
 			"anim": "danceLeft",
@@ -111,7 +111,7 @@
 		{
 			"offsets": [
 				0,
-				-9
+				-176
 			],
 			"loop": false,
 			"anim": "danceRight",
@@ -138,7 +138,7 @@
 		{
 			"offsets": [
 				0,
-				-15
+				-181
 			],
 			"loop": true,
 			"anim": "hairBlow",
@@ -154,7 +154,7 @@
 		{
 			"offsets": [
 				0,
-				-9
+				-174
 			],
 			"loop": false,
 			"anim": "hairFall",
@@ -178,7 +178,7 @@
 		{
 			"offsets": [
 				-2,
-				-22
+				-187
 			],
 			"loop": true,
 			"anim": "scared",
