@@ -5690,7 +5690,7 @@
 		"sections": 0,
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "street-real",
+		"stage": "street",
 		"speed": 2.3,
 		"bpm": 110
 	}
