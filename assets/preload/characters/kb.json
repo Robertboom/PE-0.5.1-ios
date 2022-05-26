@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				249,
-				244
+				139,
+				128
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-114,
-				50
+				-228,
+				-62
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				186,
-				33
+				62,
+				-87
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				148,
-				103
+				40,
+				-8
 			],
 			"fps": 24,
 			"anim": "danceLeft",
@@ -47,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				107,
-				112
+				0,
+				0
 			],
 			"fps": 24,
 			"anim": "danceRight",
@@ -58,24 +58,13 @@
 		{
 			"loop": false,
 			"offsets": [
-				160,
-				265
+				58,
+				150
 			],
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
 			"name": "KB_Up"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				76,
-				90
-			],
-			"anim": "idle-alt",
-			"fps": 24,
-			"name": "KB_idleTired",
-			"indices": []
 		}
 	],
 	"no_antialiasing": false,
