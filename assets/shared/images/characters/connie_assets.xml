@@ -1,0 +1,32 @@
+<TextureAtlas imagePath="connie_assets.png">
+	<SubTexture name="connie boppin0000" x="5" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0001" x="263" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0002" x="522" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0003" x="780" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0004" x="1039" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0005" x="1039" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0006" x="1297" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0007" x="1556" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0008" x="1814" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0009" x="1814" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0010" x="2073" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0011" x="2073" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0012" x="2331" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0013" x="2590" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0014" x="2848" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0015" x="3107" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0016" x="3365" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0017" x="3624" y="5" width="258" height="274" />
+	<SubTexture name="connie boppin0018" x="5" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0019" x="263" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0020" x="522" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0021" x="780" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0022" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0023" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0024" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0025" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0026" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0027" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0028" x="1039" y="279" width="258" height="274" />
+	<SubTexture name="connie boppin0029" x="1039" y="279" width="258" height="274" />
+</TextureAtlas>
