@@ -8934,12 +8934,12 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "connie",
+		"gfVersion": "gf",
 		"player3": "connie",
 		"mania": 3,
 		"splashSkin": "noteSplashes",
-		"song": "Roasted",
-		"stage": "CN_CITY",
+		"song": "roasted",
+		"stage": "stage",
 		"validScore": true,
 		"arrowSkin": "",
 		"needsVoices": true,
