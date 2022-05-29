@@ -20,7 +20,7 @@
 			"fps": 12,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "fan left"
+			"name": "together left"
 		},
 		{
 			"offsets": [
@@ -31,7 +31,7 @@
 			"fps": 12,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "fan right"
+			"name": "together right"
 		},
 		{
 			"offsets": [
@@ -42,7 +42,7 @@
 			"fps": 12,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "fan down"
+			"name": "together down"
 		},
 		{
 			"offsets": [
@@ -53,7 +53,7 @@
 			"fps": 12,
 			"anim": "singUP",
 			"indices": [],
-			"name": "fan up"
+			"name": "together up"
 		}
 	],
 	"no_antialiasing": false,
