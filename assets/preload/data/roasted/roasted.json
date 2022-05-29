@@ -8935,7 +8935,7 @@
 			}
 		],
 		"gfVersion": "connie",
-		"player3": null,
+		"player3": "connie",
 		"mania": 3,
 		"splashSkin": "noteSplashes",
 		"song": "Roasted",
