@@ -427,6 +427,19 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+					case 'CN_CITY': //Week 1
+				var bg:BGSprite = new BGSprite('BG', -600, -280, 0.9, 0.9);
+				add(bg);
+				
+				var fg:BGSprite = new BGSprite('FG', -600, -280, 0.9, 0.9);
+				add(fg);
+				
+				var orange:BGSprite = new BGSprite('orange', 940, 0, 0, 0);
+				add(orange);
+				orange.setGraphicSize(Std.int(orange.width * 0.7));
+				var logo:BGSprite = new BGSprite('logo', 1100, 600, 0, 0);
+				logo.setGraphicSize(Std.int(logo.width * 0.7));		
+				add(logo);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
