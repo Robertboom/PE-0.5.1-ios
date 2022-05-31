@@ -2864,20 +2864,23 @@ class PlayState extends MusicBeatState
 				}
 
 
-			case 'Change Character':
-				var charType:Int = 0;
-				switch(value1) {
-					case 'gf' | 'girlfriend':
-						charType = 2;
-					case 'dad' | 'opponent':
-						charType = 1;
-					default:
-						charType = Std.parseInt(value1);
-						if(Math.isNaN(charType)) charType = 0;
+			case "Change Character":
+			var charType = 0;
+			switch(value1) {
+			case "gf":case "girlfriend":
+				charType = 2;
+				break;
+			case "dad":case "opponent":
+				charType = 1;
+				break;
+			default:
+				charType = Std.parseInt(value1);
+				if(isNaN(charType)) {
+					charType = 0;
 				}
-
-				switch(charType) {
-					case 0:
+			}
+			switch(charType) {
+			case 0:
 						if(boyfriend.curCharacter != value2) {
 							if(!boyfriendMap.exists(value2)) {
 								addCharacterToList(value2, charType);
