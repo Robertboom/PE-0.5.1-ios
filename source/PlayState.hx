@@ -402,7 +402,7 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-			case 'stage': //Week 1
+			case 'E': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
 				add(bg);
 
@@ -427,7 +427,7 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-					case 'CN_CITY': //Week 1
+					case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('BG', -600, -280, 0.9, 0.9);
 				add(bg);
 				
