@@ -8939,7 +8939,7 @@
 		"mania": 3,
 		"splashSkin": "noteSplashes",
 		"song": "roasted",
-		"stage": "CN_CITY",
+		"stage": "stage",
 		"validScore": true,
 		"arrowSkin": "",
 		"needsVoices": true,
