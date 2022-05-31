@@ -2880,7 +2880,7 @@ class PlayState extends MusicBeatState
 				}
 			}
 			switch(charType) {
-			case 0:
+			case 0;
 						if(boyfriend.curCharacter != value2) {
 							if(!boyfriendMap.exists(value2)) {
 								addCharacterToList(value2, charType);
