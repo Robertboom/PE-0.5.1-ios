@@ -429,17 +429,17 @@ class PlayState extends MusicBeatState
 				}
 					case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('BG', -600, -280, 0.9, 0.9);
-			bg.setGraphicSize(Std.int(bg.width * 1.0));
+			bg.setGraphicSize(Std.int(bg.width * 0.5));
 			
 				add(bg);
 				
 				var fg:BGSprite = new BGSprite('FG', -600, -280, 0.9, 0.9);
-				fg.setGraphicSize(Std.int(fg.width * 1.0));
+				fg.setGraphicSize(Std.int(fg.width * 0.5));
 				add(fg);
 				
 				var orange:BGSprite = new BGSprite('orange', 940, 0, 0, 0);
 				add(orange);
-				orange.setGraphicSize(Std.int(orange.width * 0.5));
+				orange.setGraphicSize(Std.int(orange.width * 0.2));
 				var logo:BGSprite = new BGSprite('logo', 1100, 600, 0, 0);
 				logo.setGraphicSize(Std.int(logo.width * 0.7));		
 				add(logo);
