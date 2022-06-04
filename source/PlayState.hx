@@ -427,6 +427,13 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				
+				case 'kingdom': //Week 1
+				var land:BGSprite = new BGSprite('LANDOFCOOL_NEW', -600, -300, 0.9, 0.9);
+				add(land);
+				
+				var toads:BGSprite = new BGSprite('LAND-TOADS', -600, -300, 0.9, 0.9);
+				add(toads);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
