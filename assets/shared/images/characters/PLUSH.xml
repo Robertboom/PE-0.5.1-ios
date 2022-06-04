@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PLUSH.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MOM DOWN POSE0000" x="98" y="708" width="456" height="925" frameX="-4" frameY="0" frameWidth="414" frameHeight="613"/>
+	<SubTexture name="MOM DOWN POSE0001" x="749" y="653" width="432" height="518" frameX="-4" frameY="0" frameWidth="414" frameHeight="613"/>
+	<SubTexture name="Mom Idle0000" x="0" y="0" width="378" height="570" frameX="-4" frameY="-2" frameWidth="390" frameHeight="829"/>
+	<SubTexture name="Mom Left Pose0000" x="499" y="0" width="486" height="575" frameX="0" frameY="0" frameWidth="607" frameHeight="818"/>
+	<SubTexture name="Mom Left Pose0001" x="1081" y="0" width="380" height="575" frameX="0" frameY="0" frameWidth="607" frameHeight="818"/>
+	<SubTexture name="Mom Pose Left0000" x="1507" y="0" width="650" height="575"/>
+	<SubTexture name="Mom Pose Left0001" x="2260" y="0" width="388" height="575"/>
+	<SubTexture name="Mom Up Pose0000" x="1292" y="582" width="432" height="1051" frameX="0" frameY="-9" frameWidth="395" frameHeight="862"/>
+	<SubTexture name="Mom Up Pose0001" x="1916" y="670" width="458" height="705" frameX="0" frameY="-9" frameWidth="395" frameHeight="862"/>
+</TextureAtlas>
