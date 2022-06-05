@@ -1,18 +1,18 @@
 {
 	"songs": [
-		["unhappy", "dad", [146, 113, 253]],
-		["happy", "dad", [146, 113, 253]],
-		["really-happy", "dad", [146, 113, 253]]
+		["unhappy", "sadmouse", [120, 120, 120]],
+		["happy", "happymouse", [60, 60, 60]],
+		["really-happy", "bipolarmouse", [40, 40, 40]]
 	],
 
 	"weekCharacters": [
-		"dad",
+		"sadmouse",
 		"bf",
 		"gf"
 	],
 	"weekBackground": "stage",
 
-	"storyName": "Daddy Dearest",
+	"storyName": "the sights of hell",
 	"weekBefore": "tutorial",
 	"weekName": "Week 1",
 	"startUnlocked": true,
