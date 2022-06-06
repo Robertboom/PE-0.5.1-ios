@@ -427,6 +427,9 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				case 'street': //Week 1
+				var bg:BGSprite = new BGSprite('street1', -600, -200, 0.9, 0.9);
+				add(bg);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
