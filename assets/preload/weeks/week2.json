@@ -1,8 +1,6 @@
 {
 	"songs": [
-		["Spookeez", "spooky", [34, 51, 68]],
-		["South", "spooky", [34, 51, 68]],
-		["Monster", "monster", [34, 51, 68]]
+		["smile", "altsadmouse", [255, 255, 255]]
 	],
 
 	"weekCharacters": [
@@ -17,6 +15,6 @@
 	"weekName": "Week 2",
 	"startUnlocked": true,
 
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"hideFreeplay": false
 }
