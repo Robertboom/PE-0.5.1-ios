@@ -1,4 +1,6 @@
 bf
 gf
+bf-scared
+gf-scared
 sadmouse
 happymouse
