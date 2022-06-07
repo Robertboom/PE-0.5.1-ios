@@ -4,4 +4,5 @@ bf-scared
 gf-scared
 sadmouse
 happymouse
+bipolarmouse
 altsadmouse
