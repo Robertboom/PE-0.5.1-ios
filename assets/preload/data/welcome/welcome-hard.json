@@ -4288,7 +4288,7 @@
 		"player3": null,
 		"song": "Welcome",
 		"validScore": true,
-		"needsVoices": true,
+		"needsVoices":false,
 		"sections": 0,
 		"stage": "clubhouse-day",
 		"bpm": 120,
