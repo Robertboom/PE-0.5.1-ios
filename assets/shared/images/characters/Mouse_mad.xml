@@ -1,0 +1,14 @@
+<TextureAtlas imagePath="Mouse_mad.png"><SubTexture name="Mouse_mad d0000" x="0" y="0" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad d0001" x="481" y="0" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad i0000" x="962" y="0" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad i0001" x="1443" y="0" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad i0002" x="0" y="359" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad i0003" x="481" y="359" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad i0004" x="962" y="359" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad l0000" x="1443" y="359" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad l0001" x="0" y="718" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad r0000" x="481" y="718" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad r0001" x="962" y="718" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad u0000" x="1443" y="718" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+<SubTexture name="Mouse_mad u0001" x="0" y="1077" width="481" height="359" frameX="0" frameY="0" frameWidth="481" frameHeight="359" />
+</TextureAtlas>
