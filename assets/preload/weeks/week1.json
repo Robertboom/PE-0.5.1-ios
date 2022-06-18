@@ -2,7 +2,8 @@
 	"songs": [
 		["wistfulness", "mouse-sad", [82, 89, 81]],
 		["dejection", "happy", [82, 89, 81]],
-		["unknown-suffering", "mouse", [82, 89, 81]]
+		["unknown-suffering", "mouse", [82, 89, 81]],
+                ["last-day", "badend", [82, 89, 81]]
 	],
 
 	"weekCharacters": [
