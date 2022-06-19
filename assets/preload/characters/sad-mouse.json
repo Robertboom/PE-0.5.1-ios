@@ -7,7 +7,7 @@
 				55
 			],
 			"anim": "singDOWN",
-			"fps": 24,
+			"fps": 12,
 			"name": "Sad Mouse Down",
 			"indices": []
 		},
@@ -18,7 +18,7 @@
 				90
 			],
 			"anim": "idle",
-			"fps": 24,
+			"fps": 12,
 			"name": "Sad Mouse Idle",
 			"indices": []
 		},
@@ -29,7 +29,7 @@
 				96
 			],
 			"anim": "singLEFT",
-			"fps": 24,
+			"fps": 12,
 			"name": "Sad Mouse Left",
 			"indices": []
 		},
@@ -40,7 +40,7 @@
 				115
 			],
 			"anim": "singRIGHT",
-			"fps": 24,
+			"fps": 12,
 			"name": "Sad Mouse Rigth",
 			"indices": []
 		},
@@ -51,7 +51,7 @@
 				83
 			],
 			"anim": "singUP",
-			"fps": 24,
+			"fps": 12,
 			"name": "Sad Mouse Up",
 			"indices": []
 		},
@@ -62,7 +62,7 @@
 				148
 			],
 			"anim": "suicide",
-			"fps": 24,
+			"fps": 12,
 			"name": "Suicide",
 			"indices": []
 		}
