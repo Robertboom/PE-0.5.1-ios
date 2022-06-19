@@ -6,3 +6,4 @@ mouse-happy
 suicide
 sad-mouse
 jank
+mokey-sad-suicide
