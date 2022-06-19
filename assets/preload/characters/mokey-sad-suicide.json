@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IdleDance"
+		},
+		{
+			"offsets": [
+				184,
+				-40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LeftNote"
+		},
+		{
+			"offsets": [
+				-38,
+				-234
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DownNote"
+		},
+		{
+			"offsets": [
+				129,
+				393
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "UpNote"
+		},
+		{
+			"offsets": [
+				-12,
+				58
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RightNote"
+		},
+		{
+			"offsets": [
+				130,
+				93
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "die",
+			"indices": [],
+			"name": "AnimationShit"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "IdleColorBlacc"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				151
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "Laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Sad_Mokey_Crazy_Lmao_Assets",
+	"position": [
+		-100,
+		-45
+	],
+	"healthicon": "crazy-mokey",
+	"flip_x": false,
+	"healthbar_colors": [
+		84,
+		84,
+		84
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
