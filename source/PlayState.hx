@@ -427,7 +427,53 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-
+				
+				case 'too-slow': //Week 1
+				var bg:BGSprite = new BGSprite('BGSky', -600, -200, 0.9, 0.9);
+				add(bg);
+				
+				var treemid:BGSprite = new BGSprite('TreesMidBack', -600, -200, 0.9, 0.9);
+				add(treemid);
+				
+				var treesouter:BGSprite = new BGSprite('TreesOuterMid1', -600, -200, 0.9, 0.9);
+				add(treesouter);
+				
+				var treelittle:BGSprite = new BGSprite('TreesMid', -600, -200, 0.9, 0.9);
+				add(treelittle);
+				
+				var left:BGSprite = new BGSprite('TreesLeft', -600, -200, 0.9, 0.9);
+				add(left);
+				
+				var right:BGSprite = new BGSprite('TreesRight', -600, -200, 0.9, 0.9);
+				add(right);
+				
+				var OuterBush:BGSprite = new BGSprite('OuterBush', -600, -200, 0.9, 0.9);
+				add(OuterBush);
+				
+				var OuterBushUp:BGSprite = new BGSprite('OuterBushUp', -600, -200, 0.9, 0.9);
+				add(OuterBushUp);
+				
+				var Grass:BGSprite = new BGSprite('Grass', -600, -200, 0.9, 0.9);
+				add(Grass);
+				
+				var DeadEgg:BGSprite = new BGSprite('DeadEgg', -600, -200, 0.9, 0.9);
+				add(DeadEgg);
+				
+				var DeadTailz1:BGSprite = new BGSprite('DeadTailz1', -600, -200, 0.9, 0.9);
+				add(DeadTailz1);
+				
+				var DeadTailz1:BGSprite = new BGSprite('DeadTailz1', -600, -200, 0.9, 0.9);
+				add(DeadTailz1);
+				
+				var DeadTailz:BGSprite = new BGSprite('DeadTailz', -600, -200, 0.9, 0.9);
+				add(DeadTailz);
+				
+				var DeadKnux:BGSprite = new BGSprite('DeadKnux', -600, -200, 0.9, 0.9);
+				add(DeadKnux);
+				
+				var TreesFG:BGSprite = new BGSprite('TreesFG', -600, -200, 0.9, 0.9);
+				add(TreesFG);
+				
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
