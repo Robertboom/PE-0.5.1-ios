@@ -3,56 +3,13 @@
 		{
 			"loop": false,
 			"offsets": [
-				62,
-				-263
-			],
-			"anim": "laugh",
-			"fps": 24,
-			"name": "Beast_LAUGH",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
 				84,
 				-50
 			],
 			"anim": "idle",
 			"fps": 24,
 			"name": "Tails IDLE",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
-			]
+			"indices": []
 		},
 		{
 			"loop": false,
@@ -63,24 +20,7 @@
 			"anim": "singUP",
 			"fps": 24,
 			"name": "Tails UP",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"indices": []
 		},
 		{
 			"loop": false,
@@ -91,24 +31,7 @@
 			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "Tails RIGHT",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"indices": []
 		},
 		{
 			"loop": false,
@@ -119,24 +42,7 @@
 			"anim": "singDOWN",
 			"fps": 24,
 			"name": "Tails DOWN",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"indices": []
 		},
 		{
 			"loop": false,
@@ -147,24 +53,7 @@
 			"anim": "singLEFT",
 			"fps": 24,
 			"name": "Tails LEFT",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -185,5 +74,5 @@
 		60
 	],
 	"sing_duration": 4,
-	"scale": 1.15
+	"scale": 1
 }
