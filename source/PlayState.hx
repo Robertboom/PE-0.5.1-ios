@@ -428,7 +428,7 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 				
-				case 'too-slow': //P1
+				case 'too-slow': //week 2
 				var bg:BGSprite = new BGSprite('BGSky', -600, -200, 0.9, 0.9);
 				add(bg);
 				
