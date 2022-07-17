@@ -29,13 +29,11 @@ class Note extends FlxSprite
 	public var noteType(default, set):String = null;
 
 	public var eventName:String = '';
-	public var eventLength:Int = 0;
 	public var eventVal1:String = '';
 	public var eventVal2:String = '';
 
 	public var colorSwap:ColorSwap;
 	public var inEditor:Bool = false;
-	public var gfNote:Bool = false;
 	private var earlyHitMult:Float = 0.5;
 
 	public static var swagWidth:Float = 160 * 0.7;
@@ -68,7 +66,42 @@ class Note extends FlxSprite
 
 	public var noAnimation:Bool = false;
 	public var hitCausesMiss:Bool = false;
-	public var distance:Float = 2000;//plan on doing scroll directions soon -bb
+
+
+	/////ek shit i copied
+	public static var mania:Int = 0; 
+	public static var noteScale:Float;
+	public static var pixelnoteScale:Float;
+	public static var tooMuch:Float = 30;
+
+	public static var p1NoteScale:Float;
+	public static var p2NoteScale:Float;
+	public var defaultWidth:Float;
+
+	public static var noteScales:Array<Float> = [0.7, 0.6, 0.5, 0.65, 0.58, 0.55, 0.7, 0.7, 0.7];
+	public static var pixelNoteScales:Array<Float> = [1, 0.83, 0.7, 0.9, 0.8, 0.74, 1, 1, 1];
+	public static var noteWidths:Array<Float> = [112, 84, 66.5, 91, 77, 70, 140, 126, 119];
+	public static var sustainXOffsets:Array<Float> = [97, 84, 70, 91, 77, 78, 97, 97, 97];
+	public static var posRest:Array<Int> = [0, 35, 70, 0, 50, 60, 0, 0, 0];
+
+	public static var frameN:Array<Dynamic> = [
+		['purple', 'blue', 'green', 'red'],
+		['purple', 'green', 'red', 'yellow', 'blue', 'dark'],
+		['purple', 'blue', 'green', 'red', 'white', 'yellow', 'violet', 'darkred', 'dark'],
+		['purple', 'blue', 'white', 'green', 'red'],
+		['purple', 'green', 'red', 'white', 'yellow', 'blue', 'dark'],
+		['purple', 'blue', 'green', 'red', 'yellow', 'violet', 'darkred', 'dark'],
+		['white'],
+		['purple', 'red'],
+		['purple', 'white', 'red']
+	];
+	public static var keyAmmo:Array<Int> = [4, 6, 9, 5, 7, 8, 1, 2, 3];
+	public static var ammoToMania:Array<Int> = [0, 6, 7, 8, 0, 3, 1, 4, 5, 2];
+	public var curMania:Int = 0;
+	public var scaleToUse:Float = 1;
+
+	public static var P1MSwitchMap:Array<Dynamic> = [];
+	public static var P2MSwitchMap:Array<Dynamic> = [];
 
 	private function set_texture(value:String):String {
 		if(texture != value) {
@@ -79,10 +112,11 @@ class Note extends FlxSprite
 	}
 
 	private function set_noteType(value:String):String {
+		var colornum:Int = StrumNote.colorFromData[Note.mania][noteData % Note.keyAmmo[Note.mania]];
 		noteSplashTexture = PlayState.SONG.splashSkin;
-		colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;
-		colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
-		colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
+		colorSwap.hue = ClientPrefs.arrowHSV[colornum][0] / 360;
+		colorSwap.saturation = ClientPrefs.arrowHSV[colornum][1] / 100;
+		colorSwap.brightness = ClientPrefs.arrowHSV[colornum][2] / 100;
 
 		if(noteData > -1 && noteType != value) {
 			switch(value) {
@@ -101,8 +135,6 @@ class Note extends FlxSprite
 					hitCausesMiss = true;
 				case 'No Animation':
 					noAnimation = true;
-				case 'GF Sing':
-					gfNote = true;
 			}
 			noteType = value;
 		}
@@ -112,9 +144,24 @@ class Note extends FlxSprite
 		return value;
 	}
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inEditor:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inEditor:Bool = false, ?_mustPress:Bool = false)
 	{
 		super();
+
+		swagWidth = 160 * 0.7;
+		noteScale = 0.7;
+		pixelnoteScale = 1;
+		mania = 0;
+		if (PlayState.SONG.mania != 0)
+		{
+			mania = PlayState.SONG.mania;
+			swagWidth = noteWidths[mania];
+			noteScale = noteScales[mania];
+			pixelnoteScale = pixelNoteScales[mania];
+			
+		}
+		p1NoteScale = noteScale;
+		p2NoteScale = noteScale;
 
 		if (prevNote == null)
 			prevNote = this;
@@ -129,6 +176,41 @@ class Note extends FlxSprite
 		this.strumTime = strumTime;
 		if(!inEditor) this.strumTime += ClientPrefs.noteOffset;
 
+		if (!_mustPress)
+		{
+			/*if (strumTime >= PlayState.lastP2mChange)
+				curMania = PlayState.curP2NoteMania;
+			else
+				curMania = PlayState.prevP2NoteMania;*/
+
+			var highestStrumIdx:Int = 0;
+			for (i in 0...P2MSwitchMap.length)
+			{
+				if (P2MSwitchMap[i][1] < this.strumTime)
+					highestStrumIdx = i;
+			}
+			curMania = P2MSwitchMap[highestStrumIdx][0];
+		}
+		else
+		{
+			/*if (strumTime >= PlayState.lastP1mChange)
+				curMania = PlayState.curP1NoteMania;
+			else
+				curMania = PlayState.prevP1NoteMania;*/
+
+			var highestStrumIdx:Int = 0;
+			for (i in 0...P1MSwitchMap.length)
+			{
+				if (P1MSwitchMap[i][1] < this.strumTime)
+					highestStrumIdx = i;
+			}
+			curMania = P1MSwitchMap[highestStrumIdx][0];
+		}
+
+		scaleToUse = noteScales[curMania];
+		if (PlayState.isPixelStage)
+			scaleToUse = pixelNoteScales[curMania];
+
 		this.noteData = noteData;
 
 		if(noteData > -1) {
@@ -136,20 +218,10 @@ class Note extends FlxSprite
 			colorSwap = new ColorSwap();
 			shader = colorSwap.shader;
 
-			x += swagWidth * (noteData % 4);
+			x += swagWidth * (noteData % keyAmmo[mania]);
 			if(!isSustainNote) { //Doing this 'if' check to fix the warnings on Senpai songs
-				var animToPlay:String = '';
-				switch (noteData % 4)
-				{
-					case 0:
-						animToPlay = 'purple';
-					case 1:
-						animToPlay = 'blue';
-					case 2:
-						animToPlay = 'green';
-					case 3:
-						animToPlay = 'red';
-				}
+				var animToPlay:String = frameN[mania][noteData % keyAmmo[mania]];
+
 				animation.play(animToPlay + 'Scroll');
 			}
 		}
@@ -165,17 +237,7 @@ class Note extends FlxSprite
 			offsetX += width / 2;
 			copyAngle = false;
 
-			switch (noteData)
-			{
-				case 0:
-					animation.play('purpleholdend');
-				case 1:
-					animation.play('blueholdend');
-				case 2:
-					animation.play('greenholdend');
-				case 3:
-					animation.play('redholdend');
-			}
+			animation.play(frameN[mania][noteData % keyAmmo[mania]] + "holdend");
 
 			updateHitbox();
 
@@ -186,24 +248,10 @@ class Note extends FlxSprite
 
 			if (prevNote.isSustainNote)
 			{
-				switch (prevNote.noteData)
-				{
-					case 0:
-						prevNote.animation.play('purplehold');
-					case 1:
-						prevNote.animation.play('bluehold');
-					case 2:
-						prevNote.animation.play('greenhold');
-					case 3:
-						prevNote.animation.play('redhold');
-				}
 
-				prevNote.scale.y *= Conductor.stepCrochet / 100 * 1.05;
-				if(PlayState.instance != null)
-				{
-					prevNote.scale.y *= PlayState.instance.songSpeed;
-				}
+				prevNote.animation.play(frameN[mania][prevNote.noteData % keyAmmo[mania]] + "hold");
 
+				prevNote.scale.y *= Conductor.stepCrochet / 100 * 1.05 * PlayState.SONG.speed * (0.7 / scaleToUse);
 				if(PlayState.isPixelStage) {
 					prevNote.scale.y *= 1.19;
 				}
@@ -247,16 +295,19 @@ class Note extends FlxSprite
 		if(PlayState.isPixelStage) {
 			if(isSustainNote) {
 				loadGraphic(Paths.image('pixelUI/' + blahblah + 'ENDS'));
-				width = width / 4;
+				width = width / 9;
 				height = height / 2;
 				loadGraphic(Paths.image('pixelUI/' + blahblah + 'ENDS'), true, Math.floor(width), Math.floor(height));
 			} else {
 				loadGraphic(Paths.image('pixelUI/' + blahblah));
-				width = width / 4;
+				width = width / 9;
 				height = height / 5;
 				loadGraphic(Paths.image('pixelUI/' + blahblah), true, Math.floor(width), Math.floor(height));
 			}
-			setGraphicSize(Std.int(width * PlayState.daPixelZoom));
+			p1NoteScale = Note.pixelnoteScale;
+			p2NoteScale = Note.pixelnoteScale;
+			defaultWidth = width;
+			setGraphicSize(Std.int(width * PlayState.daPixelZoom * scaleToUse));
 			loadPixelNoteAnims();
 			antialiasing = false;
 		} else {
@@ -266,9 +317,6 @@ class Note extends FlxSprite
 		}
 		if(isSustainNote) {
 			scale.y = lastScaleY;
-			if(ClientPrefs.keSustains) {
-				scale.y *= 0.75;
-			}
 		}
 		updateHitbox();
 
@@ -282,44 +330,29 @@ class Note extends FlxSprite
 	}
 
 	function loadNoteAnims() {
-		animation.addByPrefix('greenScroll', 'green0');
-		animation.addByPrefix('redScroll', 'red0');
-		animation.addByPrefix('blueScroll', 'blue0');
-		animation.addByPrefix('purpleScroll', 'purple0');
-
-		if (isSustainNote)
+		for (i in 0...9)
 		{
-			animation.addByPrefix('purpleholdend', 'pruple end hold');
-			animation.addByPrefix('greenholdend', 'green hold end');
-			animation.addByPrefix('redholdend', 'red hold end');
-			animation.addByPrefix('blueholdend', 'blue hold end');
-
-			animation.addByPrefix('purplehold', 'purple hold piece');
-			animation.addByPrefix('greenhold', 'green hold piece');
-			animation.addByPrefix('redhold', 'red hold piece');
-			animation.addByPrefix('bluehold', 'blue hold piece');
+			animation.addByPrefix(frameN[2][i] + 'Scroll', frameN[2][i] + '0'); // Normal notes
+			animation.addByPrefix(frameN[2][i] + 'hold', frameN[2][i] + ' hold piece'); // Hold
+			animation.addByPrefix(frameN[2][i] + 'holdend', frameN[2][i] + ' hold end'); // Tails
 		}
-
-		setGraphicSize(Std.int(width * 0.7));
+		defaultWidth = width;
+		setGraphicSize(Std.int(width * scaleToUse));
 		updateHitbox();
 	}
 
 	function loadPixelNoteAnims() {
 		if(isSustainNote) {
-			animation.add('purpleholdend', [PURP_NOTE + 4]);
-			animation.add('greenholdend', [GREEN_NOTE + 4]);
-			animation.add('redholdend', [RED_NOTE + 4]);
-			animation.add('blueholdend', [BLUE_NOTE + 4]);
-
-			animation.add('purplehold', [PURP_NOTE]);
-			animation.add('greenhold', [GREEN_NOTE]);
-			animation.add('redhold', [RED_NOTE]);
-			animation.add('bluehold', [BLUE_NOTE]);
+			for (i in 0...9)
+				{
+					animation.add(frameN[2][i] + 'hold', [i]); // Holds
+					animation.add(frameN[2][i] + 'holdend', [i + 9]); // Tails
+				}
 		} else {
-			animation.add('greenScroll', [GREEN_NOTE + 4]);
-			animation.add('redScroll', [RED_NOTE + 4]);
-			animation.add('blueScroll', [BLUE_NOTE + 4]);
-			animation.add('purpleScroll', [PURP_NOTE + 4]);
+			for (i in 0...9)
+				{
+					animation.add(frameN[2][i] + 'Scroll', [i + 9]); // Normal notes
+				}
 		}
 	}
 
@@ -347,10 +380,35 @@ class Note extends FlxSprite
 				wasGoodHit = true;
 		}
 
-		if (tooLate && !inEditor)
+		if (tooLate)
 		{
 			if (alpha > 0.3)
 				alpha = 0.3;
 		}
+
+
+		//get rid of this shitty system
+		/*if (!isSustainNote && !inEditor) ///fix note scales
+		{
+			var noteTypeShit:Float = 1;
+			if (noteType == "Hurt Note")
+				noteTypeShit = ((9.2 / 1.7) / 1.7); //i literally have no idea what any of these numbers mean, i just tried to compare the width and height of the pngs and this ended up working lol
+			if (mustPress)
+			{
+				
+				if (PlayState.isPixelStage)
+					setGraphicSize(Std.int(defaultWidth * PlayState.daPixelZoom * Note.p1NoteScale));
+				else
+					setGraphicSize(Std.int(defaultWidth * Note.p1NoteScale * noteTypeShit));
+			}
+			else
+			{
+				if (PlayState.isPixelStage)
+					setGraphicSize(Std.int(defaultWidth * PlayState.daPixelZoom * Note.p2NoteScale));
+				else
+					setGraphicSize(Std.int(defaultWidth * Note.p2NoteScale * noteTypeShit));
+			}
+
+		}*/
 	}
 }
