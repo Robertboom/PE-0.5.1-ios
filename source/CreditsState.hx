@@ -80,11 +80,13 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine iOS and HTML5'],
-			['UNSTOP4BLE',		    'unstop4ble',		'Main Coder of The Port',	 'https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA',	    'CFB46B'],
-			['g3om3trycr3ator',		'g3yt',				'Secondary Coder',			 'https://www.youtube.com/channel/UCo6nbxU6x_YXaHVj78e7_vg',	    'C3DDFE'],
-			['Psych Engine Android'],
-			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Android Port, without him the iOS and HTML5 port whouldnt be possible',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	    'F73838'],
+			['vs toad team'],
+			['robert boom',		    'boom',		'epic leader/co-artist/animator/voices of mushrooms/charter/coder',	 'https://youtube.com/c/RobertBoomSussybaka',	    '0000FF'],
+			['gallantvr',		'template',				'epic artist',			 'https://youtube.com/channel/UC9UyWN8TVosAaNwWmSVTdmw',	    'FFFFFF'],
+			['gallantvr',		'template',				'epic artist',			 'https://youtube.com/channel/UC9UyWN8TVosAaNwWmSVTdmw',	    'FFFFFF'],
+			['yello',		'yellow',				'the epic composer who also made that cutsence','https://youtube.com/c/Yellodoesthings',			 'FFFF00'],
+			['waterbucket',		'bucket',				'another epic artist','https://youtube.com/channel/UCtt0WJF-KHqH3fpvBHKr1yg',			 '61380B'],
+
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
