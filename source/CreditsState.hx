@@ -83,7 +83,6 @@ class CreditsState extends MusicBeatState
 			['vs toad team'],
 			['robert boom',		    'boom',		'epic leader/co-artist/animator/voices of mushrooms/charter/coder',	 'https://youtube.com/c/RobertBoomSussybaka',	    '0000FF'],
 			['gallantvr',		'template',				'epic artist',			 'https://youtube.com/channel/UC9UyWN8TVosAaNwWmSVTdmw',	    'FFFFFF'],
-			['gallantvr',		'template',				'epic artist',			 'https://youtube.com/channel/UC9UyWN8TVosAaNwWmSVTdmw',	    'FFFFFF'],
 			['yello',		'yellow',				'the epic composer who also made that cutsence','https://youtube.com/c/Yellodoesthings',			 'FFFF00'],
 			['waterbucket',		'bucket',				'another epic artist','https://youtube.com/channel/UCtt0WJF-KHqH3fpvBHKr1yg',			 '61380B'],
 
