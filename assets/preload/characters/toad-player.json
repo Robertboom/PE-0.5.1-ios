@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				3
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "toad right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				11
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "lefty_toad",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-1
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "toad cool down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				10
+			],
+			"fps": 20,
+			"anim": "idle",
+			"indices": [],
+			"name": "toad idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				1
+			],
+			"fps": 20,
+			"anim": "singUP",
+			"indices": [],
+			"name": "toad up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TOAD_assets",
+	"position": [
+		0,
+		330
+	],
+	"healthicon": "toad",
+	"flip_x": false,
+	"healthbar_colors": [
+		195,
+		37,
+		37
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}
