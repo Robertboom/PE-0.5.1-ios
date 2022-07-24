@@ -4,3 +4,4 @@ gf
 toad
 faker
 toadOLD
+toad-player
