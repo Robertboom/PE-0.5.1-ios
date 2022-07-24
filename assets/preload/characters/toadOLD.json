@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				95,
+				4
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "lefty_toad",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-90,
+				8
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "toad right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				-11
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "toad cool down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				10
+			],
+			"fps": 20,
+			"anim": "idle",
+			"indices": [],
+			"name": "toad idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				1
+			],
+			"fps": 20,
+			"anim": "singUP",
+			"indices": [],
+			"name": "toad up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				75,
+				22
+			],
+			"fps": 20,
+			"anim": "hey",
+			"indices": [],
+			"name": "scream"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Toad_old",
+	"position": [
+		0,
+		200
+	],
+	"healthicon": "toad",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}
