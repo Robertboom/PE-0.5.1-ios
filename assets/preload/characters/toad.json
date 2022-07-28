@@ -6,6 +6,17 @@
 				21,
 				3
 			],
+			"anim": "hey",
+			"fps": 20,
+			"name": "toadHEY!!",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				3
+			],
 			"anim": "singLEFT",
 			"fps": 20,
 			"name": "lefty_toad",
