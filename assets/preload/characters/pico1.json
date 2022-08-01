@@ -9,7 +9,7 @@
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "Pico Idle"
+			"name": "CPico Idle"
 		},
 		{
 			"offsets": [
@@ -20,7 +20,7 @@
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "Pico Left"
+			"name": "CPico Left"
 		},
 		{
 			"offsets": [
@@ -31,7 +31,7 @@
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Pico Right"
+			"name": "CPico Right"
 		},
 		{
 			"offsets": [
@@ -42,7 +42,7 @@
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "Pico Up"
+			"name": "CPico Up"
 		},
 		{
 			"offsets": [
@@ -53,29 +53,7 @@
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "Pico Down"
-		},
-		{
-			"offsets": [
-				10,
-				120
-			],
-			"indices": [],
-			"fps": 20,
-			"anim": "shoot",
-			"loop": false,
-			"name": "Gunshot"
-		},
-		{
-			"offsets": [
-				-2,
-				25
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "reload",
-			"loop": false,
-			"name": "Reload"
+			"name": "CPico Down"
 		}
 	],
 	"no_antialiasing": false,
