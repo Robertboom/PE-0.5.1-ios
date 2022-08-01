@@ -61,7 +61,7 @@
 						"0"
 					],
 					[
-						"noteskinchangeBF",
+						"die",
 						"notes_unable",
 						""
 					]
@@ -7044,8 +7044,8 @@
 		],
 		"player2": "pico1",
 		"player3": null,
-		"song": "Unable",
-		"stage": "picod1",
+		"song": "unable",
+		"stage": "stage",
 		"needsVoices": true,
 		"validScore": true,
 		"bpm": 170,
