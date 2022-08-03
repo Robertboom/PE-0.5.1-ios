@@ -61,7 +61,7 @@
 						"0"
 					],
 					[
-						"die",
+						"noteskinchangeBF",
 						"notes_unable",
 						""
 					]
@@ -81,12 +81,12 @@
 						""
 					],
 					[
-						"u",
+						"die",
 						"1",
 						"cpicod2"
 					],
 					[
-						"u",
+						"die",
 						"BF",
 						"CBF2"
 					]
@@ -116,7 +116,7 @@
 				103058.823529412,
 				[
 					[
-						"e",
+						"die",
 						"1",
 						"c2picod2"
 					],
@@ -136,7 +136,7 @@
 				114352.94117647,
 				[
 					[
-						"y",
+						"die",
 						"1",
 						"c3picod2"
 					],
@@ -151,7 +151,7 @@
 				148235.294117647,
 				[
 					[
-						"e",
+						"die",
 						"BF",
 						"CBF1"
 					],
@@ -7044,7 +7044,7 @@
 		],
 		"player2": "pico1",
 		"player3": null,
-		"song": "unable",
+		"song": "Unable",
 		"stage": "stage",
 		"needsVoices": true,
 		"validScore": true,
