@@ -8,3 +8,4 @@ sad-mouse
 jank
 mokey-suicide
 mokey-sad-suicide
+mouse-good
