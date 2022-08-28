@@ -2,6 +2,7 @@ bf
 dad
 gf
 toad
-faker
+bf-plush
+plush
 toadOLD
 toad-player
