@@ -1,0 +1,11 @@
+<TextureAtlas imagePath="BF_PLUSH.png">	
+    <SubTexture name="BFSTARE0000" x="0" y="0" width="332" height="610" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+    <SubTexture name="BF_RIGHT0000" x="347" y="0" width="765" height="672" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+     <SubTexture name="BF_RIGHT0001" x="1133" y="0" width="418" height="713" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+      <SubTexture name="BF_LEFT0000" x="1565" y="0" width="774" height="710" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+       <SubTexture name="BF_LEFT0001" x="0" y="660" width="374" height="718" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+        <SubTexture name="BF_down0000" x="463" y="1164" width="460" height="209" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+        <SubTexture name="BF_down0001" x="1037" y="718" width="465" height="692" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+        <SubTexture name="BF_UP0000" x="1765" y="717" width="444" height="985" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+         <SubTexture name="BF_UP0001" x="0" y="1383" width="390" height="654" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+</TextureAtlas>
