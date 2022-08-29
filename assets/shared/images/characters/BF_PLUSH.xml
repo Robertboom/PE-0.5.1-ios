@@ -5,7 +5,7 @@
       <SubTexture name="BF_LEFT0000" x="1565" y="0" width="774" height="710" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
        <SubTexture name="BF_LEFT0001" x="0" y="660" width="374" height="718" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
         <SubTexture name="BF_down0000" x="463" y="1164" width="460" height="209" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
-        <SubTexture name="BF_down0001" x="1037" y="718" width="465" height="692" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
-        <SubTexture name="BF_UP0000" x="1765" y="717" width="444" height="985" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
-         <SubTexture name="BF_UP0001" x="0" y="1383" width="390" height="654" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+        <SubTexture name="BF_down0001" x="465" y="707" width="459" height="700" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+        <SubTexture name="BF_UP0000" x="1760" y="732" width="396" height="941" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
+         <SubTexture name="BF_UP0001" x="0" y="1379" width="397" height="658" frameX="0" frameY="0" frameWidth="252" frameHeight="178" />
 </TextureAtlas>
