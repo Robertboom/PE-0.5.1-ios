@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="toadNEW.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lefty_toad0000" x="310" y="0" width="388" height="483" frameX="0" frameY="-10" frameWidth="439" frameHeight="434"/>
+	<SubTexture name="toad cool down0000" x="308" y="487" width="308" height="472" frameX="0" frameY="-11" frameWidth="401" frameHeight="428"/>
+	<SubTexture name="toad idle0000" x="0" y="0" width="308" height="473" frameX="-3" frameY="-30" frameWidth="403" frameHeight="445"/>
+	<SubTexture name="toad right0000" x="715" y="0" width="309" height="472" frameX="0" frameY="0" frameWidth="430" frameHeight="445"/>
+	<SubTexture name="toad up0000" x="0" y="476" width="308" height="472" frameX="0" frameY="0" frameWidth="412" frameHeight="431"/>
+</TextureAtlas>
