@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				27,
-				1
+				-21,
+				107
 			],
 			"loop": false,
 			"fps": 20,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-33,
-				9
+				-22,
+				88
 			],
 			"loop": false,
 			"fps": 20,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				-5,
-				-4
+				-24,
+				98
 			],
 			"loop": false,
 			"fps": 20,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-4,
-				10
+				-19,
+				118
 			],
 			"loop": false,
 			"anim": "idle",
@@ -57,8 +57,8 @@
 		},
 		{
 			"offsets": [
-				4,
-				-1
+				-22,
+				87
 			],
 			"loop": false,
 			"anim": "singUP",
@@ -81,8 +81,8 @@
 		37
 	],
 	"camera_position": [
-		0,
-		0
+		-80,
+		-100
 	],
 	"sing_duration": 4,
 	"scale": 1
