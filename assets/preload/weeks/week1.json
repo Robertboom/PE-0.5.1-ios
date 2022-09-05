@@ -3,7 +3,8 @@
 		["happy", "toad", [146, 113, 253]],
 		["sunshine", "faker", [146, 113, 253]],
 		["vesania", "toad", [146, 113, 253]],
-                ["blue", "old", [146, 113, 253]]
+                ["blue", "old", [146, 113, 253]],
+                ["augment", "mario", [146, 113, 253]]
 	],
 
 	"weekCharacters": [
