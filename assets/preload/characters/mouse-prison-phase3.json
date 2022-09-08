@@ -56,9 +56,8 @@
 			"name": "FINAL MIKI RIGHT"
 		}
 	],
-	"dataType": "JSON",
 	"no_antialiasing": false,
-	"image": "characters/Prisoner_Mickey",
+	"image": "characters/FINAL_SUICIDE_MOUSE",
 	"position": [
 		80,
 		370
