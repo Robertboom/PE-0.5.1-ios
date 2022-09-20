@@ -1,8 +1,7 @@
 {
 	"songs": [
-		["Spookeez", "spooky", [34, 51, 68]],
-		["South", "spooky", [34, 51, 68]],
-		["Monster", "monster", [34, 51, 68]]
+		["last-day", "test", [34, 51, 68]],
+		["hellhole", "test", [34, 51, 68]]
 	],
 
 	"weekCharacters": [
@@ -12,7 +11,7 @@
 	],
 	"weekBackground": "halloween",
 
-	"storyName": "Spooky Month",
+	"storyName": "BAD END",
 	"weekBefore": "week1",
 	"weekName": "Week 2",
 	"startUnlocked": true,
