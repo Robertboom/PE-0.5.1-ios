@@ -116,9 +116,9 @@
 	<SubTexture name="Suicide Up0015" x="2712" y="825" width="390" height="430" frameX="-1" frameY="-51" frameWidth="393" frameHeight="481" />
 	<SubTexture name="Suicide Up0016" x="2712" y="825" width="390" height="430" frameX="-1" frameY="-51" frameWidth="393" frameHeight="481" />
 	<SubTexture name="Suicide Up0017" x="2712" y="825" width="390" height="430" frameX="-1" frameY="-51" frameWidth="393" frameHeight="481" />
-	<SubTexture name="Suicide UpALT0000" x="1128" y="1241" width="366" height="418" frameX="-1" frameY="-51" frameWidth="393" frameHeight="481" />
-	<SubTexture name="Suicide IdleALT0000" x="404" y="1268" width="314" height="361" frameX="-4" frameY="-7" frameWidth="351" frameHeight="418" />
-	<SubTexture name="Suicide RigthALT0000" x="1860" y="1274" width="343" height="402" frameX="0" frameY="-32" frameWidth="430" frameHeight="429" />
-	<SubTexture name="Suicide LeftALT0000" x="1515" y="1237" width="324" height="446" frameX="-13" frameY="-30" frameWidth="356" frameHeight="446" />
-	<SubTexture name="Suicide DownALT0000" x="728" y="1231" width="377" height="324" frameX="-33" frameY="-5" frameWidth="394" frameHeight="343" />
+	<SubTexture name="up0000" x="1128" y="1241" width="366" height="418" frameX="-1" frameY="-51" frameWidth="393" frameHeight="481" />
+	<SubTexture name="idle0000" x="404" y="1268" width="314" height="361" frameX="-4" frameY="-7" frameWidth="351" frameHeight="418" />
+	<SubTexture name="right0000" x="1860" y="1274" width="343" height="402" frameX="0" frameY="-32" frameWidth="430" frameHeight="429" />
+	<SubTexture name="left0000" x="1515" y="1237" width="324" height="446" frameX="-13" frameY="-30" frameWidth="356" frameHeight="446" />
+	<SubTexture name="down0000" x="728" y="1231" width="377" height="324" frameX="-33" frameY="-5" frameWidth="394" frameHeight="343" />
 </TextureAtlas>
