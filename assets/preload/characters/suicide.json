@@ -61,9 +61,9 @@
 				80,
 				28
 			],
-			"anim": "singDOWN-alt",
+			"anim": "idle-alt",
 			"fps": 24,
-			"name": "Suicide DownALT",
+			"name": "idle",
 			"indices": []
 		},
 		{
@@ -72,9 +72,9 @@
 				80,
 				28
 			],
-			"anim": "idle-alt",
+			"anim": "singDOWN-alt",
 			"fps": 24,
-			"name": "Suicide IdleALT",
+			"name": "down",
 			"indices": []
 		},
 		{
@@ -85,7 +85,7 @@
 			],
 			"anim": "singUP-alt",
 			"fps": 24,
-			"name": "Suicide UpALT",
+			"name": "up",
 			"indices": []
 		},
 		{
@@ -96,7 +96,7 @@
 			],
 			"anim": "singLEFT-alt",
 			"fps": 24,
-			"name": "Suicide LeftALT",
+			"name": "left",
 			"indices": []
 		},
 		{
@@ -107,7 +107,7 @@
 			],
 			"anim": "singRIGHT-alt",
 			"fps": 24,
-			"name": "Suicide RigthALT0000",
+			"name": "right",
 			"indices": []
 		},
 		{
