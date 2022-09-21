@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				79,
+				50
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mouse Left"
+		},
+		{
+			"offsets": [
+				-19,
+				-115
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+		    "name": "Mouse Down"
+		},
+		{
+			"offsets": [
+				24,
+				154
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mouse Up"
+		},
+		{
+			"offsets": [
+				-232,
+				22
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mouse Rigth"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": true,
+			"name": "Mouse Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/inferno mickey",
+	"position": [
+		-320,
+		170
+	],
+	"healthicon": "hellholemickey",
+	"flip_x": false,
+	"healthbar_colors": [
+		42,
+		46,
+		40
+	],
+	"camera_position": [
+		-230,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 2.4
+}
