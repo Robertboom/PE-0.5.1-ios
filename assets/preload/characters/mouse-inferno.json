@@ -53,7 +53,7 @@
 			"fps": 12,
 			"anim": "idle",
 			"loop": true,
-			"name": "Mouse Idle"
+			"name": "Mouse idle"
 		}
 	],
 	"no_antialiasing": false,
