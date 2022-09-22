@@ -2,7 +2,7 @@
 <TextureAtlas imagePath="inferno mickey.png">
 	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-<SubTexture name="Mouse idle0000" x="24" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
+    <SubTexture name="Mouse idle0000" x="24" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
 	<SubTexture name="Mouse idle0001" x="507" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
 	<SubTexture name="Mouse idle0002" x="994" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
 	<SubTexture name="Mouse idle0003" x="1480" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
@@ -14,5 +14,11 @@
 	<SubTexture name="Mouse Left0002" x="489" y="1030" width="465" height="423" frameX="0" frameY="0" frameWidth="584" frameHeight="848"/>
 	<SubTexture name="Mouse Down0000" x="1485" y="1138" width="461" height="335" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
 	<SubTexture name="Mouse Down0001" x="32" y="1634" width="452" height="335" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
-	<SubTexture name="Mouse Down0001" x="521" y="1634" width="440" height="344" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
+	<SubTexture name="Mouse Down0002" x="521" y="1634" width="440" height="344" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
+	<SubTexture name="Mouse Up0000" x="981" y="178" width="478" height="444" frameX="0" frameY="0" frameWidth="540" frameHeight="833"/>
+	<SubTexture name="Mouse Up0001" x="1466" y="1478" width="480" height="444" frameX="0" frameY="0" frameWidth="540" frameHeight="833"/>
+	<SubTexture name="Mouse Up0002" x="0" y="1890" width="480" height="444" frameX="0" frameY="0" frameWidth="540" frameHeight="833"/>
+		<SubTexture name="Mouse Rigth0000" x="601" y="2042" width="348" height="415" frameX="0" frameY="0" frameWidth="570" frameHeight="841"/>
+	<SubTexture name="Mouse Rigth0001" x="1076" y="2043" width="348" height="415" frameX="0" frameY="0" frameWidth="570" frameHeight="841"/>
+	<SubTexture name="Mouse Rigth0002" x="1574" y="2043" width="347" height="415" frameX="0" frameY="0" frameWidth="570" frameHeight="841"/>
 </TextureAtlas>
