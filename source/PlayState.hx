@@ -405,13 +405,6 @@ class PlayState extends MusicBeatState
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('Mickeybg', -450, -400, 0.9, 0.9);
 				add(bg);
-				
-				var Grain:FlxSprite = new FlxSprite(repositionShit - 380, -800);
-				Grain.frames = Paths.getPackerAtlas('Grain');
-				Grain.animation.add('grains', [0, 1, 2, 3, 4, 5, 6], 12);
-				Grain.animation.play('grains');
-				Grain.scrollFactor.set(1, 1);
-				add(grain);
 				}
 
 			case 'spooky': //Week 2
