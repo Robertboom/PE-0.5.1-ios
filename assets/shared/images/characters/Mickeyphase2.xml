@@ -3,6 +3,6 @@
 <SubTexture name="Mickeyphase2 Idle0000" x="18" y="16" width="621" height="835" frameX="0" frameY="0" frameWidth="621" frameHeight="835"/>
 <SubTexture name="Mickeyphase2 Left0000" x="854" y="0" width="748" height="835" frameX="0" frameY="0" frameWidth="1500" frameHeight="1400"/>
 <SubTexture name="Mickeyphase2 Down0000" x="1702" y="6" width="667" height="794" frameX="0" frameY="0" frameWidth="1500" frameHeight="1400"/>
-<SubTexture name="Mickeyphase2 Right0000" x="0" y="" width="948" height="851" frameX="0" frameY="0" frameWidth="1500" frameHeight="1400"/>
-<SubTexture name="Mickeyphase2 Up0000" x="852" y="944" width="758" height="948" frameX="0" frameY="0" frameWidth="1500" frameHeight="1400" />
+<SubTexture name="Mickeyphase2 Right0000" x="0" y="948" width="850" height="751" frameX="0" frameY="0" frameWidth="1500" frameHeight="1400"/>
+<SubTexture name="Mickeyphase2 Up0000" x="852" y="944" width="758" height="948" frameX="0" frameY="0" frameWidth="1500" frameHeight="1400"/>
 </TextureAtlas>
