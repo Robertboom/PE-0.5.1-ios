@@ -1,7 +1,7 @@
 {
 	"songs": [
-		["isolated", "mickey", [146, 113, 253]],
-		["lunacy", "lunamick", [146, 113, 253]]
+		["isolated", "mickey", [0, 0, 0]],
+		["lunacy", "lunamick", [0, 0, 0]]
 	],
 
 	"weekCharacters": [
