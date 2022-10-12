@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+Format:
+n  => name
+x  => x pos
+y  => y pos
+w  => width
+h  => height
+pX => x pos of the pivot point
+pY => y pos of the pivot point
+oX => x-corner offset
+oY => y-corner offset
+oW => original width
+oH => original height
+r => 'y' if sprite is rotated-->
+<TextureAtlas imagePath="texture.png" width="2045" height="2030" scale="1" format="RGBA8888">
+  <sprite n="BF_D_SIDES.png/BF Dead confirm0009" x="0" y="0" w="321" h="312" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF Dead confirm0018" x="0" y="312" w="321" h="312" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0001" x="321" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0003" x="0" y="624" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0005" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0001" x="0" y="998" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0003" x="1023" y="0" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0005" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0001" x="351" y="374" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0003" x="1023" y="326" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0005" x="1396" y="0" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0001" x="0" y="1650" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0003" x="373" y="735" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0005" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0001" x="316" y="1650" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0003" x="689" y="687" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0005" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0001" x="373" y="1105" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0003" x="1638" y="370" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0005" x="971" y="750" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0007" x="598" y="1468" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0009" x="1638" y="733" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle shaking0001" x="942" y="1113" w="340" h="360" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle shaking0002" x="1315" y="1096" w="340" h="360" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle shaking0003" x="942" y="1473" w="340" h="360" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle shaking0004" x="1655" y="1096" w="340" h="360" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0002" x="321" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0004" x="0" y="624" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0006" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0007" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0008" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0009" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0010" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0011" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0012" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0013" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0014" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0015" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0016" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0017" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0018" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0019" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0020" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0021" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0022" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0023" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0024" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0025" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF HEY!!0026" x="672" y="0" w="351" h="374" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0002" x="0" y="998" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0004" x="1023" y="0" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0006" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0007" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0008" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0009" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0010" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0011" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE DOWN0012" x="0" y="1324" w="373" h="326" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0002" x="351" y="374" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0004" x="1023" y="326" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0006" x="1396" y="0" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0007" x="1396" y="0" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0008" x="1396" y="0" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0009" x="1396" y="0" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE LEFT0010" x="1396" y="0" w="333" h="361" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0002" x="0" y="1650" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0004" x="373" y="735" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0006" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0007" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0008" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0009" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0010" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0011" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0012" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0013" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0014" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0015" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0016" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0017" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0018" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0019" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0020" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0021" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0022" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0023" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0024" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE RIGHT0025" x="1729" y="0" w="316" h="370" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0002" x="316" y="1650" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0004" x="689" y="687" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0006" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0007" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0008" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0009" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0010" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0011" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0012" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0013" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0014" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF NOTE UP0015" x="1356" y="370" w="282" h="380" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0002" x="373" y="1105" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0004" x="1638" y="370" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0006" x="971" y="750" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0008" x="598" y="1468" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0010" x="1638" y="733" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0011" x="1638" y="733" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0012" x="1638" y="733" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0013" x="1638" y="733" w="344" h="363" pX="0.5" pY="0.5"/>
+  <sprite n="BF_D_SIDES.png/BF idle dance0014" x="1638" y="733" w="344" h="363" pX="0.5" pY="0.5"/>
+</TextureAtlas>
