@@ -1,7 +1,8 @@
 {
 	"songs": [
 		["mushrooms", "toad", [165, 0, 77]],
-                ["kingdom", "toad", [165, 0, 77]]
+                ["kingdom", "toad", [165, 0, 77]],
+                ["party", "toad", [165, 0, 77]]
 	],
 
 	"weekCharacters": [
