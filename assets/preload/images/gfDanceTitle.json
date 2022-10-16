@@ -1,8 +1,8 @@
 {	
 	"titlex":-150,
 	"titley":-100,
-	"startx":100,
-	"starty":576,
+	"startx":999,
+	"starty":999,
 	"gfx":999,
 	"gfy":999,
 	"backgroundSprite":"mickeysangre",
