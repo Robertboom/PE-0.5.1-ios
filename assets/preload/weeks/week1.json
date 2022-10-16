@@ -1,8 +1,9 @@
 {
 	"songs": [
-		["Bopeebo", "dad", [146, 113, 253]],
-		["unknown-suffering", "mouse", [146, 113, 253]],
-		["versiculus-iratus", "dad", [146, 113, 253]]
+		["wistfullness", "test", [146, 113, 253]],
+		["unknown-no", "test", [146, 113, 253]],
+                ["last-day", "mouse", [146, 113, 253]],
+		["versiculus-no", "test", [146, 113, 253]]
 	],
 
 	"weekCharacters": [
