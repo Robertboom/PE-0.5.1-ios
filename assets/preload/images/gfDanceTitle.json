@@ -5,6 +5,6 @@
 	"starty":576,
 	"gfx":512,
 	"gfy":999,
-	"backgroundSprite":"Start_toad",
+	"backgroundSprite":"start_toad",
 	"bpm":110
 }
