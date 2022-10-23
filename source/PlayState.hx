@@ -431,6 +431,18 @@ class PlayState extends MusicBeatState
 				case 'kingdom': //Week 1
 				var bg:BGSprite = new BGSprite('LANDOFCOOL_NEW', -230, -100, 0.9, 0.9);
 				add(bg);
+				
+				case 'kingdomtoads': //Week 1
+				var bg:BGSprite = new BGSprite('LANDOFCOOL_NEW', -230, -100, 0.9, 0.9);
+				add(bg);
+				
+				case 'kingdomSS': //Week 1
+				var bg:BGSprite = new BGSprite('Landsunset', -230, -100, 0.9, 0.9);
+				add(bg);
+				
+				case 'kingdomw': //Week 1
+				var bg:BGSprite = new BGSprite('landBnW', -230, -100, 0.9, 0.9);
+				add(bg);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
