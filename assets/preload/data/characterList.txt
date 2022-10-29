@@ -4,5 +4,7 @@ gf
 toad
 bf-plush
 plush
-toadOLD
+toadSS
+bfSS
+gfSS
 toad-player
