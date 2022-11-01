@@ -1,24 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="inferno mickey.png">
-	<!-- Created with Adobe Animate version 21.0.7.42652 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-    <SubTexture name="Mouse idle0000" x="24" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
-	<SubTexture name="Mouse idle0001" x="507" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
-	<SubTexture name="Mouse idle0002" x="994" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
-	<SubTexture name="Mouse idle0003" x="1480" y="0" width="430" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
-	<SubTexture name="Mouse idle0004" x="0" y="494" width="460" height="356" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
-	<SubTexture name="Mouse idle0005" x="483" y="500" width="470" height="349" frameX="0" frameY="0" frameWidth="510" frameHeight="855"/>
-	<SubTexture name="Mouse idle0006" x="963" y="493" width="470" height="353" frameX="-14" frameY="-4" frameWidth="510" frameHeight="855"/>
-		<SubTexture name="Mouse Left0000" x="1444" y="535" width="488" height="423" frameX="0" frameY="0" frameWidth="584" frameHeight="848"/>
-	<SubTexture name="Mouse Left0001" x="0" y="1030" width="488" height="423" frameX="0" frameY="0" frameWidth="584" frameHeight="848"/>
-	<SubTexture name="Mouse Left0002" x="489" y="1030" width="465" height="423" frameX="0" frameY="0" frameWidth="584" frameHeight="848"/>
-	<SubTexture name="Mouse Down0000" x="1485" y="1138" width="461" height="335" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
-	<SubTexture name="Mouse Down0001" x="32" y="1634" width="452" height="335" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
-	<SubTexture name="Mouse Down0002" x="521" y="1634" width="440" height="344" frameX="0" frameY="0" frameWidth="558" frameHeight="604"/>
-	<SubTexture name="Mouse Up0000" x="981" y="178" width="478" height="444" frameX="0" frameY="0" frameWidth="540" frameHeight="833"/>
-	<SubTexture name="Mouse Up0001" x="1466" y="1478" width="480" height="444" frameX="0" frameY="0" frameWidth="540" frameHeight="833"/>
-	<SubTexture name="Mouse Up0002" x="0" y="1890" width="480" height="444" frameX="0" frameY="0" frameWidth="540" frameHeight="833"/>
-		<SubTexture name="Mouse Rigth0000" x="601" y="2042" width="348" height="415" frameX="0" frameY="0" frameWidth="570" frameHeight="841"/>
-	<SubTexture name="Mouse Rigth0001" x="1076" y="2043" width="348" height="415" frameX="0" frameY="0" frameWidth="570" frameHeight="841"/>
-	<SubTexture name="Mouse Rigth0002" x="1574" y="2043" width="347" height="415" frameX="0" frameY="0" frameWidth="570" frameHeight="841"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="inferno mickey.png" width="3913" height="3884">
+  <SubTexture name="Miki UP0004.png" x="1" y="1"  width="796" height="706" frameX="-15" frameY="-6" frameWidth="826" frameHeight="716"/>
+  <SubTexture name="Miki UP0005.png" x="799" y="1"  width="796" height="701" frameX="-13" frameY="-11" frameWidth="826" frameHeight="716"/>
+  <SubTexture name="Miki UP0003.png" x="1597" y="1"  width="791" height="703" frameX="-17" frameY="-9" frameWidth="826" frameHeight="716"/>
+  <SubTexture name="Miki UP0002.png" x="799" y="704"  width="783" height="711" frameX="-29" frameY="-1" frameWidth="826" frameHeight="716"/>
+  <SubTexture name="Miki UP0001.png" x="1" y="709"  width="779" height="709" frameX="-30" frameY="-3" frameWidth="826" frameHeight="716"/>
+  <SubTexture name="MIKI LEFT0002.png" x="2390" y="1"  width="761" height="654" frameX="-11" frameY="-4" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0001.png" x="3153" y="1"  width="759" height="650" frameX="-10" frameY="-2" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI IDLE0013.png" x="3153" y="653"  width="759" height="579" frameX="-16" frameY="-2" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0016.png" x="2390" y="657"  width="759" height="579" frameX="-16" frameY="-2" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0008.png" x="1584" y="706"  width="759" height="577" frameX="-12" frameY="-4" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0010.png" x="1584" y="1285"  width="759" height="575" frameX="-16" frameY="-6" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0006.png" x="782" y="1417"  width="757" height="570" frameX="-16" frameY="-11" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0007.png" x="1" y="1420"  width="755" height="576" frameX="-15" frameY="-5" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI LEFT0004.png" x="3151" y="1234"  width="754" height="651" frameX="-30" frameY="-3" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0006.png" x="2345" y="1238"  width="753" height="649" frameX="-33" frameY="-5" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI IDLE0011.png" x="1541" y="1862"  width="753" height="580" frameX="-19" frameY="-1" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0009.png" x="758" y="1989"  width="753" height="579" frameX="-19" frameY="-2" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0014.png" x="1" y="1998"  width="753" height="579" frameX="-19" frameY="-2" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0015.png" x="3100" y="1887"  width="753" height="579" frameX="-19" frameY="-2" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0018.png" x="2296" y="1889"  width="753" height="579" frameX="-19" frameY="-2" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0017.png" x="1513" y="2444"  width="753" height="577" frameX="-19" frameY="-4" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI IDLE0012.png" x="756" y="2570"  width="753" height="576" frameX="-19" frameY="-5" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI LEFT0003.png" x="1" y="2579"  width="752" height="645" frameX="-28" frameY="-2" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI RIGHT0002.png" x="1" y="3226"  width="552" height="657" frameX="-2" frameY="-2" frameWidth="578" frameHeight="672"/>
+  <SubTexture name="MIKI RIGHT0001.png" x="555" y="3226"  width="551" height="652" frameX="-3" frameY="-2" frameWidth="578" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0007.png" x="3051" y="2468"  width="752" height="644" frameX="-30" frameY="-2" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI IDLE0005.png" x="2268" y="2470"  width="752" height="572" frameX="-18" frameY="-9" frameWidth="788" frameHeight="592"/>
+  <SubTexture name="MIKI LEFT0005.png" x="1511" y="3023"  width="750" height="646" frameX="-32" frameY="-3" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI DOWN0002.png" x="2263" y="3044"  width="747" height="538" frameX="-12" frameY="-9" frameWidth="773" frameHeight="580"/>
+  <SubTexture name="MIKI DOWN0001.png" x="3012" y="3114"  width="743" height="538" frameX="-14" frameY="-4" frameWidth="773" frameHeight="580"/>
+  <SubTexture name="MIKI LEFT0008.png" x="1511" y="3023"  width="750" height="646" frameX="-32" frameY="-3" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0011.png" x="1511" y="3023"  width="750" height="646" frameX="-32" frameY="-3" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0009.png" x="2345" y="1238"  width="753" height="649" frameX="-33" frameY="-5" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0012.png" x="2345" y="1238"  width="753" height="649" frameX="-33" frameY="-5" frameWidth="800" frameHeight="672"/>
+  <SubTexture name="MIKI LEFT0010.png" x="3051" y="2468"  width="752" height="644" frameX="-30" frameY="-2" frameWidth="800" frameHeight="672"/>
 </TextureAtlas>
