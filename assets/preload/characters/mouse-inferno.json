@@ -9,7 +9,7 @@
 			"fps": 12,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "Mouse Left"
+			"name": "MIKI LEFT"
 		},
 		{
 			"offsets": [
@@ -20,7 +20,7 @@
 			"fps": 12,
 			"anim": "singDOWN",
 			"indices": [],
-		    "name": "Mouse Down"
+		    "name": "MIKI DOWN"
 		},
 		{
 			"offsets": [
@@ -31,7 +31,7 @@
 			"fps": 12,
 			"anim": "singUP",
 			"indices": [],
-			"name": "Mouse Up"
+			"name": "Miki UP"
 		},
 		{
 			"offsets": [
@@ -42,7 +42,7 @@
 			"fps": 12,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Mouse Rigth"
+			"name": "MIKI RIGHT"
 		},
 		{
 			"offsets": [
@@ -53,7 +53,7 @@
 			"fps": 12,
 			"anim": "idle",
 			"indices": [],
-			"name": "Mouse idle"
+			"name": "MIKI IDLE"
 		}
 	],
 	"no_antialiasing": false,
@@ -74,5 +74,5 @@
 		-20
 	],
 	"sing_duration": 6.1,
-	"scale": 2.4
+	"scale": 1.2
 }
