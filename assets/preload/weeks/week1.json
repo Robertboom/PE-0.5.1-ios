@@ -3,7 +3,8 @@
 		["wistfullness", "test", [146, 113, 253]],
 		["unknown-no", "test", [146, 113, 253]],
                 ["last-day", "mouse", [146, 113, 253]],
-		["versiculus-no", "test", [146, 113, 253]]
+		["versiculus-e", "test", [146, 113, 253]],
+                ["hellhole", "infernomouse", [146, 113, 253]]
 	],
 
 	"weekCharacters": [
