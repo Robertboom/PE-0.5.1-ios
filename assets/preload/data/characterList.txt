@@ -5,6 +5,7 @@ suicide
 mouse-prison-phase3
 bf-retro
 bf-dsides
+oswald
 mouse-inferno
 gf-retro
 bf-portal
