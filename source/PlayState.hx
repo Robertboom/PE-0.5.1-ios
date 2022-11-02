@@ -3796,7 +3796,7 @@ bg.setGraphicSize(Std.int(bg.width * 1.2));
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
 
-           if							note.wasGoodHit = true;
+           if							note.wasGoodHit;
       
 boyfriend.playAnim('dodge', true);     
 							boyfriend.specialAnim = true;
