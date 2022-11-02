@@ -150,7 +150,7 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "at",
+			"anim": "hurt",
 			"indices": [],
 			"name": "BF Jeringa"
 		},
