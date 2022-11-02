@@ -3794,11 +3794,7 @@ bg.setGraphicSize(Std.int(bg.width * 1.2));
 				switch(note.noteType) {
 					case 'Hurt Note': //Hurt note
 						if(boyfriend.animation.getByName('hurt') != null) {
-							boyfriend.playAnim('hurt', true);
-
-           if							note.wasGoodHit;
-      
-boyfriend.playAnim('dodge', true);     
+							boyfriend.playAnim('hurt', true);    
 							boyfriend.specialAnim = true;
 						}
 				}
