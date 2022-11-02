@@ -426,6 +426,7 @@ class PlayState extends MusicBeatState
 					stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
+			}
 			case 'inferno': //Week 1
 				var bg:BGSprite = new BGSprite('Back', -620, -280, 0.9, 0.9);
 
@@ -439,7 +440,6 @@ bg.setGraphicSize(Std.int(bg.width * 1.2));
 				var ground2:BGSprite = new BGSprite('infernogroundp2', -620, -280, 0.9, 0.9);
 				ground2.setGraphicSize(Std.int(ground2.width * 1.2));
 				add(ground2);
-				}
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
