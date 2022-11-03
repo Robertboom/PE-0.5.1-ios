@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="MICKEY LEAKER.png" width="4039" height="4096">
+  <SubTexture name="BOOK MIKI UP0001" x="1" y="1"  width="340" height="539" frameX="-0" frameY="-0" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI UP0003" x="1" y="542"  width="340" height="530" frameX="-0" frameY="-9" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI UP0005" x="1" y="1074"  width="340" height="529" frameX="-0" frameY="-10" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI IDLE0014" x="1" y="1605"  width="301" height="526" frameX="-2" frameY="-0" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0016" x="1" y="2133"  width="301" height="526" frameX="-2" frameY="-0" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0012" x="1" y="2661"  width="301" height="525" frameX="-2" frameY="-1" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0010" x="1" y="3188"  width="301" height="524" frameX="-2" frameY="-2" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0002" x="304" y="1605"  width="398" height="523" frameX="-0" frameY="-3" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0001" x="343" y="1"  width="381" height="523" frameX="-0" frameY="-3" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0009" x="343" y="526"  width="301" height="523" frameX="-5" frameY="-3" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0004" x="343" y="1051"  width="420" height="519" frameX="-2" frameY="-7" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0003" x="646" y="526"  width="409" height="519" frameX="-2" frameY="-7" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0007" x="726" y="1"  width="303" height="519" frameX="-10" frameY="-7" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0005" x="1031" y="1"  width="422" height="517" frameX="-6" frameY="-9" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0006" x="304" y="2130"  width="418" height="517" frameX="-6" frameY="-9" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI LEFT0001" x="704" y="1572"  width="367" height="515" frameX="-0" frameY="-0" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0023" x="765" y="1047"  width="361" height="515" frameX="-6" frameY="-0" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0009" x="1073" y="520"  width="377" height="514" frameX="-6" frameY="-1" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0011" x="304" y="2649"  width="377" height="513" frameX="-6" frameY="-2" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0013" x="304" y="3164"  width="377" height="513" frameX="-6" frameY="-2" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0015" x="683" y="2649"  width="377" height="513" frameX="-6" frameY="-2" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI UP0005" x="724" y="2089"  width="328" height="512" frameX="-2" frameY="-0" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI WHATS THAT0025" x="1054" y="2089"  width="358" height="511" frameX="-6" frameY="-4" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI UP0007" x="1073" y="1564"  width="314" height="511" frameX="-9" frameY="-1" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="BOOK MIKI LEFT0003" x="1128" y="1036"  width="365" height="510" frameX="-8" frameY="-5" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0027" x="1452" y="520"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0029" x="1455" y="1"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0031" x="1812" y="513"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI UP0003" x="1815" y="1"  width="328" height="510" frameX="-2" frameY="-2" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI WHATS THAT0008" x="2145" y="1"  width="381" height="509" frameX="-22" frameY="-6" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI LEFT0005" x="1389" y="1548"  width="363" height="509" frameX="-10" frameY="-6" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI RIGHT0001" x="1495" y="1032"  width="374" height="507" frameX="-0" frameY="-0" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="MIKI WHATS THAT0016" x="683" y="3164"  width="388" height="506" frameX="-1" frameY="-9" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0018" x="1062" y="2602"  width="388" height="505" frameX="-0" frameY="-10" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0020" x="1414" y="2059"  width="388" height="505" frameX="-0" frameY="-10" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0022" x="1754" y="1541"  width="388" height="505" frameX="-0" frameY="-10" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI IDLE0001" x="1871" y="1025"  width="376" height="503" frameX="-2" frameY="-0" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="BOOK MIKI RIGHT0003" x="2172" y="512"  width="374" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0005" x="2528" y="1"  width="373" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="MIKI UP0001" x="1073" y="3109"  width="329" height="502" frameX="-0" frameY="-10" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI LEFT0001" x="1073" y="3613"  width="431" height="481" frameX="-1" frameY="-15" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI UP0008" x="1404" y="3109"  width="287" height="498" frameX="-14" frameY="-14" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI IDLE0007" x="1506" y="3609"  width="405" height="486" frameX="-5" frameY="-17" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="BOOK MIKI DOWN0005" x="1913" y="3609"  width="346" height="480" frameX="-0" frameY="-0" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="MIKI IDLE0003" x="1452" y="2566"  width="384" height="497" frameX="-0" frameY="-6" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI LEFT0008" x="1804" y="2048"  width="383" height="496" frameX="-59" frameY="-0" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI IDLE0011" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI WHATS THAT0001" x="2261" y="1017"  width="371" height="494" frameX="-36" frameY="-21" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI IDLE0009" x="2548" y="506"  width="383" height="493" frameX="-10" frameY="-10" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI WHATS THAT0004" x="2903" y="1"  width="368" height="493" frameX="-39" frameY="-22" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI IDLE0005" x="1693" y="3065"  width="397" height="491" frameX="-2" frameY="-12" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI LEFT0005" x="1838" y="2546"  width="424" height="490" frameX="-1" frameY="-6" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI WHATS THAT0006" x="2261" y="2026"  width="372" height="488" frameX="-38" frameY="-27" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI LEFT0003" x="2526" y="1513"  width="427" height="487" frameX="-0" frameY="-9" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI LEFT0007" x="2635" y="1001"  width="428" height="478" frameX="-9" frameY="-18" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="BOOK MIKI DOWN0003" x="2955" y="496"  width="346" height="478" frameX="-0" frameY="-2" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="BOOK MIKI DOWN0001" x="3273" y="1"  width="345" height="470" frameX="-0" frameY="-10" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="MIKI RIGHT0005" x="3620" y="1"  width="418" height="448" frameX="-7" frameY="-20" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI RIGHT0003" x="3620" y="451"  width="415" height="446" frameX="-7" frameY="-22" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI DOWN0008" x="3303" y="473"  width="303" height="442" frameX="-10" frameY="-4" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI RIGHT0001" x="3608" y="899"  width="412" height="446" frameX="-6" frameY="-22" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI RIGHT0007" x="3608" y="1347"  width="402" height="443" frameX="-2" frameY="-25" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI RIGHT0008" x="2092" y="3038"  width="361" height="468" frameX="-0" frameY="-0" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI DOWN0005" x="2264" y="2516"  width="327" height="446" frameX="-0" frameY="-0" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI DOWN0001" x="2261" y="3508"  width="327" height="444" frameX="-10" frameY="-2" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI DOWN0003" x="2455" y="2964"  width="326" height="444" frameX="-3" frameY="-2" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI DOWN0007" x="2593" y="2516"  width="330" height="428" frameX="-6" frameY="-18" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="BOOK MIKI DOWN0002" x="3273" y="1"  width="345" height="470" frameX="-0" frameY="-10" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="BOOK MIKI DOWN0004" x="2955" y="496"  width="346" height="478" frameX="-0" frameY="-2" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="BOOK MIKI DOWN0006" x="1913" y="3609"  width="346" height="480" frameX="-0" frameY="-0" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="BOOK MIKI DOWN0007" x="1913" y="3609"  width="346" height="480" frameX="-0" frameY="-0" frameWidth="346" frameHeight="480"/>
+  <SubTexture name="BOOK MIKI IDLE0008" x="726" y="1"  width="303" height="519" frameX="-10" frameY="-7" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0011" x="1" y="3188"  width="301" height="524" frameX="-2" frameY="-2" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0013" x="1" y="2661"  width="301" height="525" frameX="-2" frameY="-1" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0015" x="1" y="1605"  width="301" height="526" frameX="-2" frameY="-0" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI IDLE0017" x="1" y="2133"  width="301" height="526" frameX="-2" frameY="-0" frameWidth="428" frameHeight="526"/>
+  <SubTexture name="BOOK MIKI LEFT0002" x="704" y="1572"  width="367" height="515" frameX="-0" frameY="-0" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI LEFT0004" x="1128" y="1036"  width="365" height="510" frameX="-8" frameY="-5" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI LEFT0006" x="1389" y="1548"  width="363" height="509" frameX="-10" frameY="-6" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI LEFT0007" x="1389" y="1548"  width="363" height="509" frameX="-10" frameY="-6" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI LEFT0008" x="1389" y="1548"  width="363" height="509" frameX="-10" frameY="-6" frameWidth="373" frameHeight="515"/>
+  <SubTexture name="BOOK MIKI RIGHT0002" x="1495" y="1032"  width="374" height="507" frameX="-0" frameY="-0" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0004" x="2172" y="512"  width="374" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0006" x="2528" y="1"  width="373" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0007" x="2528" y="1"  width="373" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0008" x="2528" y="1"  width="373" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0009" x="2528" y="1"  width="373" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI RIGHT0010" x="2528" y="1"  width="373" height="503" frameX="-0" frameY="-4" frameWidth="374" frameHeight="507"/>
+  <SubTexture name="BOOK MIKI UP0002" x="1" y="1"  width="340" height="539" frameX="-0" frameY="-0" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI UP0004" x="1" y="542"  width="340" height="530" frameX="-0" frameY="-9" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI UP0006" x="1" y="1074"  width="340" height="529" frameX="-0" frameY="-10" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI UP0007" x="1" y="1074"  width="340" height="529" frameX="-0" frameY="-10" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="BOOK MIKI UP0008" x="1" y="1074"  width="340" height="529" frameX="-0" frameY="-10" frameWidth="340" frameHeight="539"/>
+  <SubTexture name="MIKI DOWN0002" x="2261" y="3508"  width="327" height="444" frameX="-10" frameY="-2" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI DOWN0004" x="2455" y="2964"  width="326" height="444" frameX="-3" frameY="-2" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI DOWN0006" x="2264" y="2516"  width="327" height="446" frameX="-0" frameY="-0" frameWidth="337" frameHeight="446"/>
+  <SubTexture name="MIKI IDLE0002" x="1871" y="1025"  width="376" height="503" frameX="-2" frameY="-0" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0004" x="1452" y="2566"  width="384" height="497" frameX="-0" frameY="-6" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0006" x="1693" y="3065"  width="397" height="491" frameX="-2" frameY="-12" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0008" x="1506" y="3609"  width="405" height="486" frameX="-5" frameY="-17" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0010" x="2548" y="506"  width="383" height="493" frameX="-10" frameY="-10" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0012" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0013" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0014" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0015" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0016" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0017" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0018" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0019" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI IDLE0020" x="2144" y="1530"  width="380" height="494" frameX="-10" frameY="-9" frameWidth="410" frameHeight="503"/>
+  <SubTexture name="MIKI LEFT0002" x="1073" y="3613"  width="431" height="481" frameX="-1" frameY="-15" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI LEFT0004" x="2526" y="1513"  width="427" height="487" frameX="-0" frameY="-9" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI LEFT0006" x="1838" y="2546"  width="424" height="490" frameX="-1" frameY="-6" frameWidth="442" frameHeight="496"/>
+  <SubTexture name="MIKI RIGHT0002" x="3608" y="899"  width="412" height="446" frameX="-6" frameY="-22" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI RIGHT0004" x="3620" y="451"  width="415" height="446" frameX="-7" frameY="-22" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI RIGHT0006" x="3620" y="1"  width="418" height="448" frameX="-7" frameY="-20" frameWidth="425" frameHeight="468"/>
+  <SubTexture name="MIKI UP0002" x="1073" y="3109"  width="329" height="502" frameX="-0" frameY="-10" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI UP0004" x="1815" y="1"  width="328" height="510" frameX="-2" frameY="-2" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI UP0006" x="724" y="2089"  width="328" height="512" frameX="-2" frameY="-0" frameWidth="330" frameHeight="512"/>
+  <SubTexture name="MIKI WHATS THAT0002" x="2261" y="1017"  width="371" height="494" frameX="-36" frameY="-21" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0003" x="2261" y="1017"  width="371" height="494" frameX="-36" frameY="-21" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0005" x="2903" y="1"  width="368" height="493" frameX="-39" frameY="-22" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0007" x="2261" y="2026"  width="372" height="488" frameX="-38" frameY="-27" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0010" x="1073" y="520"  width="377" height="514" frameX="-6" frameY="-1" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0012" x="304" y="2649"  width="377" height="513" frameX="-6" frameY="-2" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0014" x="304" y="3164"  width="377" height="513" frameX="-6" frameY="-2" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0017" x="683" y="3164"  width="388" height="506" frameX="-1" frameY="-9" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0019" x="1062" y="2602"  width="388" height="505" frameX="-0" frameY="-10" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0021" x="1414" y="2059"  width="388" height="505" frameX="-0" frameY="-10" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0024" x="765" y="1047"  width="361" height="515" frameX="-6" frameY="-0" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0026" x="1054" y="2089"  width="358" height="511" frameX="-6" frameY="-4" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0028" x="1452" y="520"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0030" x="1455" y="1"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0032" x="1812" y="513"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0033" x="1812" y="513"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0034" x="1812" y="513"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+  <SubTexture name="MIKI WHATS THAT0035" x="1812" y="513"  width="358" height="510" frameX="-6" frameY="-5" frameWidth="410" frameHeight="515"/>
+</TextureAtlas>
