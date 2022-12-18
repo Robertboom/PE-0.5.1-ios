@@ -4,3 +4,5 @@ gf
 mickey
 mickeysadistic
 bf-fake
+relapsePhase1
+bf-relapsed
