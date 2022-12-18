@@ -1,7 +1,8 @@
 {
 	"songs": [
 		["isolated", "mickey", [0, 0, 0]],
-		["lunacy", "lunamick", [0, 0, 0]]
+		["lunacy", "lunamick", [0, 0, 0]],
+                ["lunacy", "relapse-pixel", [0, 0, 0]]
 	],
 
 	"weekCharacters": [
