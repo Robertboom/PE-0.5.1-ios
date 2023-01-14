@@ -6,10 +6,10 @@
 				339
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 15,
 			"anim": "idle",
 			"indices": [],
-			"name": "Mickeyphase2 Idle"
+			"name": "Idle"
 		},
 		{
 			"offsets": [
@@ -17,10 +17,10 @@
 				333
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 15,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "Mickeyphase2 Left"
+			"name": "Left"
 		},
 		{
 			"offsets": [
@@ -28,10 +28,10 @@
 				449
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 15,
 			"anim": "singUP",
 			"indices": [],
-			"name": "Mickeyphase2 Up"
+			"name": "Up"
 		},
 		{
 			"offsets": [
@@ -39,10 +39,10 @@
 				294
 			],
 			"loop": false,
-			"fps": 24,
+			"fps": 15,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "Mickeyphase2 Down"
+			"name": "Down"
 		},
 		{
 			"offsets": [
@@ -50,8 +50,8 @@
 				251
 			],
 			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
+			"fps": 15,
+			"anim": "RIGHT",
 			"indices": [],
 			"name": "Mickeyphase2 Right"
 		}
