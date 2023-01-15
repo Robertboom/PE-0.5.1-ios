@@ -51,7 +51,7 @@
 			],
 			"loop": false,
 			"fps": 15,
-			"anim": "RIGHT",
+			"anim": "Right",
 			"indices": [],
 			"name": "Mickeyphase2 Right"
 		}
