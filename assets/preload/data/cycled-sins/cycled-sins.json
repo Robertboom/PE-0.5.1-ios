@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf-relapsed"
-		"gfVersion": "gf",
+		"gfVersion": "lol",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -8132,10 +8132,10 @@
 				]
 			]
 		],
-		"player2": "relapsePhase1",
-		"player3": null,
+		"player2": "dad",
+		"player3": "lol",
 		"splashSkin": null,
-		"song": "Cycled-Sins",
+		"song": "cycled-sins",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
