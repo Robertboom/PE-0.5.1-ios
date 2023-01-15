@@ -51,9 +51,9 @@
 			],
 			"loop": false,
 			"fps": 15,
-			"anim": "Right",
+			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Mickeyphase2 Right"
+			"name": "Right"
 		}
 	],
 	"no_antialiasing": false,
@@ -70,8 +70,8 @@
 		216
 	],
 	"camera_position": [
-		0,
-		0
+		-100,
+		-300
 	],
 	"sing_duration": 6.1,
 	"scale": 1
