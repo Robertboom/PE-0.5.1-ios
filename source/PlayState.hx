@@ -405,6 +405,13 @@ class PlayState extends MusicBeatState
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('clubhouse', -350, -150, 0.9, 0.9);
 				add(bg);
+				
+				case 'clubhouse-repentance': //Week 1
+				var bg:BGSprite = new BGSprite('clubhouse', -350, -150, 0.9, 0.9);
+				add(bg);
+				
+				var blackvignette:BGSprite = new BGSprite('blackvignette', -31, 0, 0, 0);
+				add(blackvignette);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
