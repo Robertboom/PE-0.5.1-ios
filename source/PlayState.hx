@@ -411,10 +411,8 @@ class PlayState extends MusicBeatState
 				add(bg);
 				
 				var blackvignette:BGSprite = new BGSprite('blackvignette', -31, 0, 0, 0);
-				blackvignette.setGraphicSize(Std.int(
 
-blackvignette.updateHitbox();				
-blackvignette.width * 1.5));
+blackvignette.updateHitbox();					blackvignette.setGraphicSize(Std.int(blackvignette.width * 1.5));
 				
 add(blackvignette);
 
