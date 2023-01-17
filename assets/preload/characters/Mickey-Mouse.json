@@ -3,10 +3,10 @@
 		{
 			"offsets": [
 				0,
-				1
+				-41
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 15,
 			"anim": "idle",
 			"loop": false,
 			"name": "Idle"
@@ -17,51 +17,51 @@
 				-14
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 15,
 			"anim": "hey",
 			"loop": false,
 			"name": "HAHA"
 		},
 		{
 			"offsets": [
-				-60,
-				-66
+				-20,
+				-65
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 15,
 			"anim": "singUP",
 			"loop": false,
 			"name": "Up"
 		},
 		{
 			"offsets": [
-				-55,
-				-148
+				-20,
+				-60
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 15,
 			"anim": "singDOWN",
 			"loop": false,
 			"name": "Down"
 		},
 		{
 			"offsets": [
-				-160,
-				-101
+				-9,
+				-43
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 15,
 			"anim": "singRIGHT",
 			"loop": false,
 			"name": "Right"
 		},
 		{
 			"offsets": [
-				-13,
-				-102
+				54,
+				-50
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 15,
 			"anim": "singLEFT",
 			"loop": false,
 			"name": "Left"
