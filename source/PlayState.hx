@@ -411,6 +411,7 @@ class PlayState extends MusicBeatState
 				add(bg);
 				
 				var blackvignette:BGSprite = new BGSprite('blackvignette', -31, 0, 0, 0);
+				blackvignette.setGraphicSize(Std.int(blackvignette.width * 1.4));
 				add(blackvignette);
 
 			case 'spooky': //Week 2
