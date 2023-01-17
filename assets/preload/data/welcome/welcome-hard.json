@@ -4184,8 +4184,7 @@
 				"mustHitSection": true
 			}
 		],
-		"events": [
-			[],
+		"events": [],
 		"player2": "Mickey-Mouse",
 		"player3": null,
 		"splashSkin": "noteSplashes",
