@@ -1,18 +1,18 @@
 {
 	"songs": [
-		["welcome", "mouse", [146, 113, 253]],
-		["clubhouse", "mouse", [146, 113, 253]],
-		["repentance", "mousea", [146, 113, 253]]
+		["welcome", "mouse", [240 ,0 , 0]],
+		["clubhouse", "mouse", [240 , 0, 0]],
+		["repentance", "mousea", [238 , 0, 0]]
 	],
 
 	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
 	"weekBackground": "stage",
 
-	"storyName": "Daddy Dearest",
+	"storyName": "BY ROBERT BOOM LELELEL",
 	"weekBefore": "tutorial",
 	"weekName": "Week 1",
 	"startUnlocked": true,
