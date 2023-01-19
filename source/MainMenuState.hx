@@ -283,7 +283,6 @@ class MainMenuState extends MusicBeatState
 				var add:Float = 0;
 				if(menuItems.length > 4) {
 					add = menuItems.length * 8;
-				}
-
+        });
 	}
 }
