@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_classic.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="classic basic0000" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0001" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0002" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0003" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0004" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0005" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0006" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic basic0007" x="0" y="0" width="315" height="315"/>
+	<SubTexture name="classic white0000" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0001" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0002" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0003" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0004" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0005" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0006" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0007" x="315" y="0" width="340" height="340"/>
+	<SubTexture name="classic white0008" x="315" y="0" width="340" height="340"/>
+</TextureAtlas>
