@@ -415,6 +415,20 @@ class PlayState extends MusicBeatState
 blackvignette.updateHitbox();					blackvignette.setGraphicSize(Std.int(blackvignette.width * 1.5));
 				
 add(blackvignette);
+case 'clubhouse-repentance': //Week 1
+				var bg:BGSprite = new BGSprite('clubhouse', -350, -150, 0.9, 0.9);
+				add(bg);
+				
+				case 'clubhouse-crisis': //Week 1
+				var mouse:BGSprite = new BGSprite('clubhouse-markus-head', -110, 420, 1, 1);
+				mouse.setGraphicSize(Std.int(mouse.width * 0.4));
+				add(mouse);
+				
+				var blackvignette:BGSprite = new BGSprite('blackvignette', -31, 0, 0, 0);
+
+blackvignette.updateHitbox();					blackvignette.setGraphicSize(Std.int(blackvignette.width * 1.5));
+				
+add(blackvignette);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
