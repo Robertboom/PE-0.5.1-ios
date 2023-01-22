@@ -420,6 +420,8 @@ case 'clubhouse-repentance': //Week 1
 				add(bg);
 				
 				case 'clubhouse-crisis': //Week 1
+				var bg:BGSprite = new BGSprite('clubhouse', -350, -150, 0.9, 0.9);
+				add(bg);
 				var mouse:BGSprite = new BGSprite('clubhouse-markus-head', -110, 420, 1, 1);
 				mouse.setGraphicSize(Std.int(mouse.width * 0.4));
 				add(mouse);
