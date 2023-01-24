@@ -3,7 +3,8 @@
 		["welcome", "mouse", [240 ,0 , 0]],
 		["clubhouse", "mouse", [240 , 0, 0]],
 		["repentance", "mousea", [238 , 0, 0]]
-                ["crisis", "marko", [210 , 0, 0]]  
+                ["crisis", "marko", [210 , 0, 0]], 
+                ["crazy", "marko", [210 , 0, 0]]
 	],
 
 	"weekCharacters": [
