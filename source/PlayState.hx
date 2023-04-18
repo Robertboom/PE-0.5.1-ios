@@ -414,7 +414,7 @@ add(stageCurtains);
 
 var ground:BGSprite = new BGSprite('ground', -410, 550, 0.8, 0.8);
 add(ground);
-				}
+				
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
