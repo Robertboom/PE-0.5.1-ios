@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="xenootherview.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle instance 10000" x="0" y="0" width="1555" height="941" frameX="0" frameY="0" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10001" x="0" y="0" width="1555" height="941" frameX="0" frameY="0" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10002" x="0" y="0" width="1555" height="941" frameX="0" frameY="0" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10003" x="0" y="0" width="1555" height="941" frameX="0" frameY="0" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10004" x="0" y="941" width="1555" height="941" frameX="0" frameY="-3" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10005" x="0" y="941" width="1555" height="941" frameX="0" frameY="-10" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10006" x="0" y="941" width="1555" height="941" frameX="0" frameY="-10" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10007" x="0" y="941" width="1555" height="941" frameX="0" frameY="-10" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10008" x="0" y="941" width="1555" height="941" frameX="0" frameY="-10" frameWidth="1555" frameHeight="951"/>
+	<SubTexture name="idle instance 10009" x="0" y="941" width="1555" height="941" frameX="0" frameY="-7" frameWidth="1555" frameHeight="951"/>
+</TextureAtlas>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="xenosaster.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="xeno_down0000" x="0" y="0" width="962" height="919" frameX="0" frameY="-18" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0001" x="0" y="0" width="962" height="919" frameX="0" frameY="-18" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0002" x="962" y="0" width="968" height="921" frameX="0" frameY="-5" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0003" x="962" y="0" width="968" height="921" frameX="0" frameY="-5" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0004" x="1930" y="0" width="970" height="921" frameX="0" frameY="0" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0005" x="1930" y="0" width="970" height="921" frameX="0" frameY="0" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0006" x="1930" y="0" width="970" height="921" frameX="0" frameY="0" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0007" x="1930" y="0" width="970" height="921" frameX="0" frameY="0" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_down0008" x="1930" y="0" width="970" height="921" frameX="0" frameY="0" frameWidth="970" frameHeight="937"/>
+	<SubTexture name="xeno_idle0000" x="2900" y="0" width="941" height="940" frameX="0" frameY="-10" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0001" x="2900" y="0" width="941" height="940" frameX="0" frameY="-10" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0002" x="3841" y="0" width="925" height="939" frameX="0" frameY="-11" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0003" x="3841" y="0" width="925" height="939" frameX="0" frameY="-11" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0004" x="4766" y="0" width="932" height="946" frameX="0" frameY="-4" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0005" x="4766" y="0" width="932" height="946" frameX="0" frameY="-4" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0006" x="5698" y="0" width="938" height="948" frameX="0" frameY="-2" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0007" x="5698" y="0" width="938" height="948" frameX="0" frameY="-2" frameWidth="941" frameHeight="950"/>
+	<SubTexture name="xeno_idle0008" x="6636" y="0" width="941" height="950"/>
+	<SubTexture name="xeno_idle0009" x="6636" y="0" width="941" height="950"/>
+	<SubTexture name="xeno_idle0010" x="6636" y="0" width="941" height="950"/>
+	<SubTexture name="xeno_idle0011" x="6636" y="0" width="941" height="950"/>
+	<SubTexture name="xeno_idle0012" x="6636" y="0" width="941" height="950"/>
+	<SubTexture name="xeno_idle0013" x="6636" y="0" width="941" height="950"/>
+	<SubTexture name="xeno_left0000" x="0" y="950" width="943" height="851" frameX="-7" frameY="-3" frameWidth="956" frameHeight="854"/>
+	<SubTexture name="xeno_left0001" x="0" y="950" width="943" height="851" frameX="-7" frameY="-3" frameWidth="956" frameHeight="854"/>
+	<SubTexture name="xeno_left0002" x="943" y="950" width="952" height="853" frameX="-2" frameY="-1" frameWidth="956" frameHeight="854"/>
+	<SubTexture name="xeno_left0003" x="943" y="950" width="952" height="853" frameX="-2" frameY="-1" frameWidth="956" frameHeight="854"/>
+	<SubTexture name="xeno_left0004" x="1895" y="950" width="956" height="854"/>
+	<SubTexture name="xeno_left0005" x="1895" y="950" width="956" height="854"/>
+	<SubTexture name="xeno_left0006" x="1895" y="950" width="956" height="854"/>
+	<SubTexture name="xeno_left0007" x="1895" y="950" width="956" height="854"/>
+	<SubTexture name="xeno_left0008" x="1895" y="950" width="956" height="854"/>
+	<SubTexture name="xeno_right0000" x="2851" y="950" width="1258" height="841" frameX="0" frameY="-1" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0001" x="2851" y="950" width="1258" height="841" frameX="0" frameY="-1" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0002" x="4109" y="950" width="1223" height="841" frameX="-3" frameY="-1" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0003" x="4109" y="950" width="1223" height="841" frameX="-3" frameY="-1" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0004" x="5332" y="950" width="1216" height="842" frameX="-4" frameY="0" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0005" x="5332" y="950" width="1216" height="842" frameX="-4" frameY="0" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0006" x="5332" y="950" width="1216" height="842" frameX="-4" frameY="0" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0007" x="5332" y="950" width="1216" height="842" frameX="-4" frameY="0" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_right0008" x="5332" y="950" width="1216" height="842" frameX="-4" frameY="0" frameWidth="1258" frameHeight="842"/>
+	<SubTexture name="xeno_up0000" x="6548" y="950" width="974" height="909" frameX="0" frameY="-1" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0001" x="6548" y="950" width="974" height="909" frameX="0" frameY="-1" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0002" x="0" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0003" x="0" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0004" x="972" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0005" x="972" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0006" x="972" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0007" x="972" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+	<SubTexture name="xeno_up0008" x="972" y="1859" width="972" height="909" frameX="0" frameY="0" frameWidth="974" frameHeight="910"/>
+</TextureAtlas>
