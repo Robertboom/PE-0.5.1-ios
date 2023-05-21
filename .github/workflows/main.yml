@@ -6,9 +6,9 @@ name: html5build
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ main ]
+    branches: [ patch-21 ]
   pull_request:
-    branches: [ main ]
+    branches: [ patch-21 ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
