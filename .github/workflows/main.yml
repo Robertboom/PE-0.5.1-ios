@@ -5,7 +5,7 @@
       - uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.2.4
-      # Runs a set of commands using the runners shell
+      # Runs a set of commands using the runners shel
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
